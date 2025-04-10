@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Karakter
-permalink: /Karakter
+title: Character
+permalink: /character
 comments: true
 ---
 
