@@ -11,7 +11,6 @@ comments: true
 <h2 style="text-align: left;">K</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Kill-La-Kill">Kill La Kill</a></li></ul></div>
 
-<h2 style="text-align: left;">&nbsp;O</h2><div><ul style="text-align: left;">
 <h2 style="text-align: left;">O</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#One-Piece">One Piece</a></li></ul></div>
 
