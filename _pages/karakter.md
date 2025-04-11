@@ -13,6 +13,10 @@ comments: true
 	<li><a href="https://yourcosplay.github.io/categories#Frieren">Frieren</a></li>
 </ul></div>
 
+<h2 style="text-align: left;">H</h2><div><ul style="text-align: left;">
+		<li><a href="https://yourcosplay.github.io/categories#Hinata-Hyuuga">Hinata Hyuuga</a></li>
+</ul></div>
+
 <h2 style="text-align: left;">M</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Mei-Mei">Mei Mei (Jujursu Kaisen)</a></li></ul></div>
 
