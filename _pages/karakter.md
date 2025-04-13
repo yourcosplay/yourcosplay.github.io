@@ -35,3 +35,7 @@ comments: true
 <h2 style="text-align: left;">U</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Ubel">Ubel</a></li>
 </ul></div>
+
+<h2 style="text-align: left;">V</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#Vault-Girl">Vault Girl</a></li>
+</ul></div>
