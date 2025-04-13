@@ -5,6 +5,10 @@ permalink: /gameandanime
 comments: true
 ---
 
+<h2 style="text-align: left;">D</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#Fallout">Dandadan</a></li>
+</ul></div>
+
 <h2 style="text-align: left;">F</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Fallout">Fallout</a></li>
 </ul></div>
