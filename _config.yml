@@ -2,8 +2,8 @@
 name: "Your Cosplay"
 title: "Your Cosplay"
 description: "leaked photos from Onlyfans, Patreon, and Fansly"
-logo: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfOLOmqRSebhat4tJ_tGwn2r62ro_daIfjrsRhZbQO7R46xxs4JeIevwX3Z3ykQ0CqahZsoX8OfgbsewYgShE9b6IcxPVw7-iorH8Ko-BTfpeHziZT306QS4Z4CLPwVrcZLbOpS_VmXMC2itK4cDZhcGoqrycNYoQsI9dkIxxKIyhU1IuzoD0KqLZM_KeR/s1600/android-chrome-512x512.png'
-favicon: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfOLOmqRSebhat4tJ_tGwn2r62ro_daIfjrsRhZbQO7R46xxs4JeIevwX3Z3ykQ0CqahZsoX8OfgbsewYgShE9b6IcxPVw7-iorH8Ko-BTfpeHziZT306QS4Z4CLPwVrcZLbOpS_VmXMC2itK4cDZhcGoqrycNYoQsI9dkIxxKIyhU1IuzoD0KqLZM_KeR/s1600/android-chrome-512x512.png'
+logo: 'assets/images/fav.png'
+favicon: 'assets/images/fav.png'
 baseurl: /
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'

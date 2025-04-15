@@ -12,7 +12,8 @@ comments: true
 	<li><a href="https://yourcosplay.github.io/categories#Chel">Chel</a></li></ul></div>
 
 <h2 style="text-align: left;">F</h2><div><ul style="text-align: left;">
-	<li><a href="https://yourcosplay.github.io/categories#Fern">Fern&nbsp;</a></li>
+	<li><a href="https://yourcosplay.github.io/categories#Faye-Valentine">Faye Valentine</a></li>
+	<li><a href="https://yourcosplay.github.io/categories#Fern">Fern</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Frieren">Frieren</a></li>
 </ul></div>
 
@@ -48,4 +49,8 @@ comments: true
 
 <h2 style="text-align: left;">V</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Vault-Girl">Vault Girl</a></li>
+</ul></div>
+
+<h2 style="text-align: left;">Z</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#Zero-Two">Zero Two</a></li>
 </ul></div>
