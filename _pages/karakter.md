@@ -5,6 +5,9 @@ permalink: /character
 comments: true
 ---
 
+<h2 style="text-align: left;">A</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#Albedo">Albedo</a></li></ul></div>
+
 <h2 style="text-align: left;">C</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Chel">Chel</a></li></ul></div>
 
@@ -15,6 +18,7 @@ comments: true
 
 <h2 style="text-align: left;">H</h2><div><ul style="text-align: left;">
 		<li><a href="https://yourcosplay.github.io/categories#Hinata-Hyuuga">Hinata Hyuuga</a></li>
+		<li><a href="https://yourcosplay.github.io/categories#Houshou-Marine">Houshou Marine</a></li>
 </ul></div>
 
 <h2 style="text-align: left;">M</h2><div><ul style="text-align: left;">

@@ -13,6 +13,10 @@ comments: true
 	<li><a href="https://yourcosplay.github.io/categories#Fallout">Fallout</a></li>
 </ul></div>
 
+<h2 style="text-align: left;">H</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#Hololive">Hololive</a></li>
+</ul></div>
+
 <h2 style="text-align: left;">J</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Jujutsu-Kaisen">Jujutsu Kaisen</a></li>
 </ul></div>
@@ -28,6 +32,7 @@ comments: true
 <h2 style="text-align: left;">O</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#One-Piece">One Piece</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#One-Punch-Man">One Punch Man</a></li>
+	<li><a href="https://yourcosplay.github.io/categories#Overlord">Overlord</a></li>
 </ul></div>
 
 <h2 style="text-align: left;">P</h2><div><ul style="text-align: left;">
