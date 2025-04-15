@@ -24,6 +24,7 @@ comments: true
 
 <h2 style="text-align: left;">M</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Mei-Mei">Mei Mei (Jujursu Kaisen)</a></li>
+	<li><a href="https://yourcosplay.github.io/categories#Mitsuri-Kanroji">Mitsuri Kanroji</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Momo-Ayase">Momo Ayase</a></li>
 </ul></div>
 
