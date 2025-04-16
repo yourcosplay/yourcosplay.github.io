@@ -9,12 +9,17 @@ comments: true
 	<li><a href="https://yourcosplay.github.io/categories#Albedo">Albedo</a></li></ul></div>
 
 <h2 style="text-align: left;">C</h2><div><ul style="text-align: left;">
-	<li><a href="https://yourcosplay.github.io/categories#Chel">Chel</a></li></ul></div>
+	<li><a href="https://yourcosplay.github.io/categories#Chel">Chel</a></li>
+</ul></div>
 
 <h2 style="text-align: left;">F</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Faye-Valentine">Faye Valentine</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Fern">Fern</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Frieren">Frieren</a></li>
+</ul></div>
+
+<h2 style="text-align: left;">G</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#Gwen-Stacy">Gwen Stacy</a></li>
 </ul></div>
 
 <h2 style="text-align: left;">H</h2><div><ul style="text-align: left;">

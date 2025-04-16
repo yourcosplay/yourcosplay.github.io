@@ -46,6 +46,7 @@ comments: true
 </ul></div>
 
 <h2 style="text-align: left;">S</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#Spider-man">Spider-man</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Sousou-No-Frieren">Sousou no Frieren</a></li>
 </ul></div>
 
