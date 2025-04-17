@@ -51,6 +51,7 @@ comments: true
 </ul></div>
 
 <h2 style="text-align: left;">T</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#The-Rising-Of-The-Shield-Hero">The Rising Of The Shield Hero</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#The-Road-to-El-Dorado">The Road To El Dorado</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#The-Witcher">The Witcher</a></li>
 </ul></div>
