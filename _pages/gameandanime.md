@@ -45,6 +45,10 @@ comments: true
 	<li><a href="https://yourcosplay.github.io/categories#Peter-pan">Peter Pan</a></li>
 </ul></div>
 
+<h2 style="text-align: left;">R</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#Record-Of-Ragnarok">Record Of Ragnarok</a></li>
+</ul></div>
+
 <h2 style="text-align: left;">S</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Sousou-No-Frieren">Sousou no Frieren</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Spider-man">Spider-man</a></li>
