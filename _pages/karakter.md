@@ -25,6 +25,7 @@ comments: true
 </ul></div>
 
 <h2 style="text-align: left;">H</h2><div><ul style="text-align: left;">
+		<li><a href="https://yourcosplay.github.io/categories#Harley-Quinn">Harley Quinn</a></li>
 		<li><a href="https://yourcosplay.github.io/categories#Hinata-Hyuuga">Hinata Hyuuga</a></li>
 		<li><a href="https://yourcosplay.github.io/categories#Houshou-Marine">Houshou Marine</a></li>
 </ul></div>
@@ -37,6 +38,10 @@ comments: true
 
 <h2 style="text-align: left;">N</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Nico-Robin">Nico Robin</a></li>
+</ul></div>
+
+<h2 style="text-align: left;">P</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#Princess-Zelda">Princess Zelda</a></li>
 </ul></div>
 
 <h2 style="text-align: left;">R</h2><div><ul style="text-align: left;">

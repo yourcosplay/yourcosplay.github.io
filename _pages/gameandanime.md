@@ -12,6 +12,7 @@ comments: true
 <h2 style="text-align: left;">D</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Dandadan">Dandadan</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Darling-In-The-Franxx">Darling In The Franxx</a></li>
+	<li><a href="https://yourcosplay.github.io/categories#DC-Comics">DC Comics</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Demon-Slayer">Demon Slayer</a></li>
 </ul></div>
 
@@ -55,6 +56,7 @@ comments: true
 </ul></div>
 
 <h2 style="text-align: left;">T</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#The-Legend-Of-Zelda">The Legend Of Zelda</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#The-Rising-Of-The-Shield-Hero">The Rising Of The Shield Hero</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#The-Road-to-El-Dorado">The Road To El Dorado</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#The-Witcher">The Witcher</a></li>
