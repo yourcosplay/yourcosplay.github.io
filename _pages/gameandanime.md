@@ -56,6 +56,7 @@ comments: true
 </ul></div>
 
 <h2 style="text-align: left;">T</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#Teen-Titans">Teen Titans</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#The-Legend-Of-Zelda">The Legend Of Zelda</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#The-Rising-Of-The-Shield-Hero">The Rising Of The Shield Hero</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#The-Road-to-El-Dorado">The Road To El Dorado</a></li>

@@ -46,6 +46,7 @@ comments: true
 
 <h2 style="text-align: left;">R</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Raphtalia">Raphtalia</a></li>
+	<li><a href="https://yourcosplay.github.io/categories#Raven">Raven</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Ryuuko-Matoi">Ryuuko Matoi</a></li>
 </ul></div>
 
