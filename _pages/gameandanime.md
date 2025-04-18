@@ -22,6 +22,7 @@ comments: true
 </ul></div>
 
 <h2 style="text-align: left;">H</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#Highschool-Dxd">Highschool Dxd</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Hololive">Hololive</a></li>
 </ul></div>
 
