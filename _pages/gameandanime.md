@@ -6,6 +6,7 @@ comments: true
 ---
 
 <h2 style="text-align: left;">C</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#Chobits">Chobits</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Cowboy-Bebop">Cowboy Bebop</a></li>
 </ul></div>
 

@@ -12,6 +12,7 @@ comments: true
 
 <h2 style="text-align: left;">C</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Chel">Chel</a></li>
+	<li><a href="https://yourcosplay.github.io/categories#Chii">Chii</a></li>
 </ul></div>
 
 <h2 style="text-align: left;">F</h2><div><ul style="text-align: left;">
