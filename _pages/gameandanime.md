@@ -5,6 +5,10 @@ permalink: /gameandanime
 comments: true
 ---
 
+<h2 style="text-align: left;">B</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#Bocchi-The-Rock">Bocchi The Rock</a></li>
+</ul></div>
+
 <h2 style="text-align: left;">C</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Chobits">Chobits</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Cowboy-Bebop">Cowboy Bebop</a></li>
@@ -55,10 +59,12 @@ comments: true
 <h2 style="text-align: left;">S</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Sousou-No-Frieren">Sousou no Frieren</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Spider-man">Spider-man</a></li>
+	<li><a href="https://yourcosplay.github.io/categories#Spy-X-Family">Spy X Family</a></li>
 </ul></div>
 
 <h2 style="text-align: left;">T</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Teen-Titans">Teen Titans</a></li>
+	<li><a href="https://yourcosplay.github.io/categories#Tengen-Toppa-Gurren-Lagan">Tengen Toppa Gurren Lagan</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#The-Legend-Of-Zelda">The Legend Of Zelda</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#The-Rising-Of-The-Shield-Hero">The Rising Of The Shield Hero</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#The-Road-to-El-Dorado">The Road To El Dorado</a></li>

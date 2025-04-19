@@ -28,6 +28,7 @@ comments: true
 <h2 style="text-align: left;">H</h2><div><ul style="text-align: left;">
 		<li><a href="https://yourcosplay.github.io/categories#Harley-Quinn">Harley Quinn</a></li>
 		<li><a href="https://yourcosplay.github.io/categories#Hinata-Hyuuga">Hinata Hyuuga</a></li>
+		<li><a href="https://yourcosplay.github.io/categories#Hitori-Gotou">Hitori Gotou</a></li>
 		<li><a href="https://yourcosplay.github.io/categories#Houshou-Marine">Houshou Marine</a></li>
 </ul></div>
 
@@ -67,6 +68,11 @@ comments: true
 
 <h2 style="text-align: left;">V</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Vault-Girl">Vault Girl</a></li>
+</ul></div>
+
+<h2 style="text-align: left;">Y</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#Yoko-Ritona">Yoko Ritona</a></li>
+	<li><a href="https://yourcosplay.github.io/categories#Yor-Forger">Yor Forger</a></li>
 </ul></div>
 
 <h2 style="text-align: left;">Z</h2><div><ul style="text-align: left;">
