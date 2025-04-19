@@ -6,6 +6,10 @@ comments: true
 ---
 
 <h2 style="text-align: left;">A</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#2b">2b</a></li>
+</ul></div>
+
+<h2 style="text-align: left;">A</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Albedo">Albedo</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Aphrodite">Aphrodite</a></li>
 </ul></div>
