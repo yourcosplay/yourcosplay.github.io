@@ -32,6 +32,10 @@ comments: true
 		<li><a href="https://yourcosplay.github.io/categories#Houshou-Marine">Houshou Marine</a></li>
 </ul></div>
 
+<h2 style="text-align: left;">J</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#Jill-Valentine">Jill Valentine</a></li>
+</ul></div>
+
 <h2 style="text-align: left;">M</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Mei-Mei">Mei Mei (Jujursu Kaisen)</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Mitsuri-Kanroji">Mitsuri Kanroji</a></li>

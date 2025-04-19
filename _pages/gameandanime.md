@@ -54,6 +54,7 @@ comments: true
 
 <h2 style="text-align: left;">R</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Record-Of-Ragnarok">Record Of Ragnarok</a></li>
+	<li><a href="https://yourcosplay.github.io/categories#Resident-Evil">Resident Evil</a></li>
 </ul></div>
 
 <h2 style="text-align: left;">S</h2><div><ul style="text-align: left;">

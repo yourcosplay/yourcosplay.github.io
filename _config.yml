@@ -2,8 +2,8 @@
 name: "Your Cosplay"
 title: "Your Cosplay"
 description: "leaked photos from Onlyfans, Patreon, and Fansly"
-logo: 'assets/images/fav.png'
-favicon: 'assets/images/fav-16.png'
+logo: 'assets/images/fav-16.png'
+favicon: 'assets/images/fav.png'
 baseurl: /
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
