@@ -20,6 +20,7 @@ comments: true
 </ul></div>
 
 <h2 style="text-align: left;">F</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#Falin-Thorden">Falin Thorden</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Faye-Valentine">Faye Valentine</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Fern">Fern</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Frieren">Frieren</a></li>
@@ -38,6 +39,10 @@ comments: true
 
 <h2 style="text-align: left;">J</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Jill-Valentine">Jill Valentine</a></li>
+</ul></div>
+
+<h2 style="text-align: left;">K</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#Kanu-Unchou">Kanu Unchou</a></li>
 </ul></div>
 
 <h2 style="text-align: left;">M</h2><div><ul style="text-align: left;">

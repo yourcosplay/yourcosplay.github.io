@@ -6,6 +6,7 @@ comments: true
 ---
 
 <h2 style="text-align: left;">B</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#Battle-Vixens">Battle Vixens</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Bocchi-The-Rock">Bocchi The Rock</a></li>
 </ul></div>
 
@@ -19,6 +20,7 @@ comments: true
 	<li><a href="https://yourcosplay.github.io/categories#Darling-In-The-Franxx">Darling In The Franxx</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#DC-Comics">DC Comics</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Demon-Slayer">Demon Slayer</a></li>
+	<li><a href="https://yourcosplay.github.io/categories#Dungeon-Meshi">Dungeon Meshi</a></li>
 </ul></div>
 
 <h2 style="text-align: left;">F</h2><div><ul style="text-align: left;">
