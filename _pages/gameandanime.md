@@ -64,6 +64,7 @@ comments: true
 	<li><a href="https://yourcosplay.github.io/categories#Sousou-No-Frieren">Sousou no Frieren</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Spider-man">Spider-man</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Spy-X-Family">Spy X Family</a></li>
+	<li><a href="https://yourcosplay.github.io/categories#Super-Sonico">Super Sonico</a></li>
 </ul></div>
 
 <h2 style="text-align: left;">T</h2><div><ul style="text-align: left;">
@@ -72,5 +73,6 @@ comments: true
 	<li><a href="https://yourcosplay.github.io/categories#The-Legend-Of-Zelda">The Legend Of Zelda</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#The-Rising-Of-The-Shield-Hero">The Rising Of The Shield Hero</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#The-Road-to-El-Dorado">The Road To El Dorado</a></li>
+	<li><a href="https://yourcosplay.github.io/categories#The-Seven-Deadly-Sins">The Seven Deadly Sins</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#The-Witcher">The Witcher</a></li>
 </ul></div>

@@ -5,7 +5,7 @@ permalink: /character
 comments: true
 ---
 
-<h2 style="text-align: left;">A</h2><div><ul style="text-align: left;">
+<h2 style="text-align: left;">0</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#2b">2b</a></li>
 </ul></div>
 
@@ -17,6 +17,10 @@ comments: true
 <h2 style="text-align: left;">C</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Chel">Chel</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Chii">Chii</a></li>
+</ul></div>
+
+<h2 style="text-align: left;">E</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#Elizabeth-Liones">Elizabeth Liones</a></li>
 </ul></div>
 
 <h2 style="text-align: left;">F</h2><div><ul style="text-align: left;">
@@ -68,6 +72,7 @@ comments: true
 
 <h2 style="text-align: left;">S</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Seiko-Ayase">Seiko Ayase</a></li>
+	<li><a href="https://yourcosplay.github.io/categories#Super-Sonico">Super Sonico</a></li>
 </ul></div>
 
 <h2 style="text-align: left;">T</h2><div><ul style="text-align: left;">
