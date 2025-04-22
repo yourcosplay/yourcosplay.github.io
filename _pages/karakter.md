@@ -31,6 +31,7 @@ comments: true
 </ul></div>
 
 <h2 style="text-align: left;">G</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#Gawr-Gura">Gawr Gura</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Gwen-Stacy">Gwen Stacy</a></li>
 </ul></div>
 
@@ -47,6 +48,10 @@ comments: true
 
 <h2 style="text-align: left;">K</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Kanu-Unchou">Kanu Unchou</a></li>
+</ul></div>
+
+<h2 style="text-align: left;">L</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#Lucyna-Kushinada">Lucyna Kushinada</a></li>
 </ul></div>
 
 <h2 style="text-align: left;">M</h2><div><ul style="text-align: left;">
