@@ -11,6 +11,7 @@ comments: true
 </ul></div>
 
 <h2 style="text-align: left;">C</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#Castlevania">Castlevania</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Chobits">Chobits</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Cowboy-Bebop">Cowboy Bebop</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Cyberpunk">Cyberpunk</a></li>
@@ -26,6 +27,10 @@ comments: true
 
 <h2 style="text-align: left;">F</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Fallout">Fallout</a></li>
+</ul></div>
+
+<h2 style="text-align: left;">G</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#Genshin-Impact">Genshin Impact</a></li>
 </ul></div>
 
 <h2 style="text-align: left;">H</h2><div><ul style="text-align: left;">
