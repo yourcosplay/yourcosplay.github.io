@@ -78,6 +78,7 @@ comments: true
 </ul></div>
 
 <h2 style="text-align: left;">S</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#Satsuki-Kiryuuin">Satsuki Kiryuuin</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Seiko-Ayase">Seiko Ayase</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Super-Sonico">Super Sonico</a></li>
 </ul></div>
