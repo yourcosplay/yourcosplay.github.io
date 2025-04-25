@@ -58,6 +58,7 @@ comments: true
 </ul></div>
 
 <h2 style="text-align: left;">P</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#Persona-5">Persona 5</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Peter-pan">Peter Pan</a></li>
 </ul></div>
 
