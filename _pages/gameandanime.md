@@ -12,6 +12,7 @@ comments: true
 
 <h2 style="text-align: left;">C</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Castlevania">Castlevania</a></li>
+	<li><a href="https://yourcosplay.github.io/categories#Chainsaw-Man">Chainsaw Man</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Chobits">Chobits</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Cowboy-Bebop">Cowboy Bebop</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Cyberpunk">Cyberpunk</a></li>
@@ -44,6 +45,10 @@ comments: true
 
 <h2 style="text-align: left;">K</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Kill-La-Kill">Kill La Kill</a></li>
+</ul></div>
+
+<h2 style="text-align: left;">M</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#My-Dress-up-Darling">My Dress-up Darling</a></li>
 </ul></div>
 
 <h2 style="text-align: left;">N</h2><div><ul style="text-align: left;">
