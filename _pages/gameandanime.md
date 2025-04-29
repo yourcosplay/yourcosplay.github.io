@@ -48,6 +48,7 @@ comments: true
 </ul></div>
 
 <h2 style="text-align: left;">M</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#Metal-Gear-Solid">Metal Gear Solid</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#My-Dress-up-Darling">My Dress-up Darling</a></li>
 </ul></div>
 
@@ -70,6 +71,7 @@ comments: true
 <h2 style="text-align: left;">R</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Record-Of-Ragnarok">Record Of Ragnarok</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Resident-Evil">Resident Evil</a></li>
+	<li><a href="https://yourcosplay.github.io/categories#Rosario-Vampire">Rosario Vampire</a></li>
 </ul></div>
 
 <h2 style="text-align: left;">S</h2><div><ul style="text-align: left;">
