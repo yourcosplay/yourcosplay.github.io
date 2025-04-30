@@ -82,6 +82,7 @@ comments: true
 	<li><a href="https://yourcosplay.github.io/categories#Raphtalia">Raphtalia</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Raven">Raven</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Rias-Gremory">Rias Gremory</a></li>
+	<li><a href="https://yourcosplay.github.io/categories#Rosaria">Rosaria</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Ryuuko-Matoi">Ryuuko Matoi</a></li>
 </ul></div>
 
@@ -94,6 +95,7 @@ comments: true
 <h2 style="text-align: left;">T</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Tinker-Bell">Tinker Bell</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Triss-Merigold">Triss Merigold</a></li>
+	<li><a href="https://yourcosplay.github.io/categories#Tsubasa-Hanekawa">Tsubasa Hanekawa</a></li>
 </ul></div>
 
 <h2 style="text-align: left;">U</h2><div><ul style="text-align: left;">

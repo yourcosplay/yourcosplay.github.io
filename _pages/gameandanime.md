@@ -6,6 +6,7 @@ comments: true
 ---
 
 <h2 style="text-align: left;">B</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#Bakemonogatari">Bakemonogatari</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Battle-Vixens">Battle Vixens</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Bocchi-The-Rock">Bocchi The Rock</a></li>
 </ul></div>
