@@ -87,7 +87,8 @@ comments: true
 	<li><a href="https://yourcosplay.github.io/categories#Teen-Titans">Teen Titans</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Tengen-Toppa-Gurren-Lagan">Tengen Toppa Gurren Lagan</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#The-Legend-Of-Zelda">The Legend Of Zelda</a></li>
-	<li><a href="https://yourcosplay.github.io/categories#The-Rising-Of-The-Shield-Hero">The Rising Of The Shield Hero</a></li>
+	<li><a href="https://yourcosplay.github.io/categories#The-Rising-Of-The-Shield-Hero">The Rising Of The Shield Hero</a>
+	</li>
 	<li><a href="https://yourcosplay.github.io/categories#The-Road-to-El-Dorado">The Road To El Dorado</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#The-Seven-Deadly-Sins">The Seven Deadly Sins</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#The-Witcher">The Witcher</a></li>
