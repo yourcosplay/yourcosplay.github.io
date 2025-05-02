@@ -61,6 +61,7 @@ comments: true
 	<li><a href="https://yourcosplay.github.io/categories#Marin-Kitagawa">Marin Kitagawa</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Mei-Mei">Mei Mei (Jujursu Kaisen)</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Mitsuri-Kanroji">Mitsuri Kanroji</a></li>
+	<li><a href="https://yourcosplay.github.io/categories#Miyu-Edelfelt">Miyu Edelfelt</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Moka-Akashiya">Moka Akashiya</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Momo-Ayase">Momo Ayase</a></li>
 </ul></div>
@@ -87,8 +88,10 @@ comments: true
 </ul></div>
 
 <h2 style="text-align: left;">S</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#Saber">Saber</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Satsuki-Kiryuuin">Satsuki Kiryuuin</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Seiko-Ayase">Seiko Ayase</a></li>
+	<li><a href="https://yourcosplay.github.io/categories#Shenhe">Shenhe</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Super-Sonico">Super Sonico</a></li>
 </ul></div>
 

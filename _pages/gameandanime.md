@@ -29,6 +29,7 @@ comments: true
 
 <h2 style="text-align: left;">F</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Fallout">Fallout</a></li>
+	<li><a href="https://yourcosplay.github.io/categories#Fate">Fate</a></li>
 </ul></div>
 
 <h2 style="text-align: left;">G</h2><div><ul style="text-align: left;">
