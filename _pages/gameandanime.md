@@ -71,6 +71,7 @@ comments: true
 </ul></div>
 
 <h2 style="text-align: left;">R</h2><div><ul style="text-align: left;">
+	<li><a href="https://yourcosplay.github.io/categories#Re-Zero">Re: Zero</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Record-Of-Ragnarok">Record Of Ragnarok</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Resident-Evil">Resident Evil</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Rosario-Vampire">Rosario Vampire</a></li>

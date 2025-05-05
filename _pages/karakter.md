@@ -18,6 +18,7 @@ comments: true
 <h2 style="text-align: left;">C</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Chel">Chel</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Chii">Chii</a></li>
+	<li><a href="https://yourcosplay.github.io/categories#Ciri">Ciri</a></li>
 </ul></div>
 
 <h2 style="text-align: left;">E</h2><div><ul style="text-align: left;">
@@ -82,6 +83,7 @@ comments: true
 <h2 style="text-align: left;">R</h2><div><ul style="text-align: left;">
 	<li><a href="https://yourcosplay.github.io/categories#Raphtalia">Raphtalia</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Raven">Raven</a></li>
+	<li><a href="https://yourcosplay.github.io/categories#Rem">Rem</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Rias-Gremory">Rias Gremory</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Rosaria">Rosaria</a></li>
 	<li><a href="https://yourcosplay.github.io/categories#Ryuuko-Matoi">Ryuuko Matoi</a></li>
