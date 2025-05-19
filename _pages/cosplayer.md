@@ -5,14 +5,6 @@ permalink: /cosplayer
 comments: true
 ---
 
-<h2 style="text-align: left;">A</h2><div><ul style="text-align: left;">
-  <li><a href="https://yourcosplay.github.io/categories#Alina-Becker">Alina Becker</a></li>
-</ul></div>
-
-<h2 style="text-align: left;">K</h2><div><ul style="text-align: left;">
-  <li><a href="https://yourcosplay.github.io/categories#Kovicki">Kovicki</a></li>
-</ul></div>
-
-<h2 style="text-align: left;">S</h2><div><ul style="text-align: left;">
-  <li><a href="https://yourcosplay.github.io/categories#Sayo-Momo">Sayo Momo</a></li>
-</ul></div>
+# A
+- Alina Becker (https://yourcosplay.github.io/categories#Alina-Becker)
+- Asagi Kawaii (https://yourcosplay.github.io/categories#Asagi-Kawaii)
