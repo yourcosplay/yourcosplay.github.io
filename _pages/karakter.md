@@ -12,7 +12,8 @@ comments: true
 - [Ankha](https://yourcosplay.github.io/categories#Ankha)
 
 # H
-[Hitori Gotou](https://yourcosplay.github.io/categories#Hitori-Gotou)
+- [Hitori Gotou](https://yourcosplay.github.io/categories#Hitori-Gotou)
+
 # M
 - [Makima](https://yourcosplay.github.io/categories#Makima)
 - [Meiko Shiraki](https://yourcosplay.github.io/categories#Meiko-Shiraki)
