@@ -9,6 +9,9 @@ comments: true
 - [Animal Crossing](https://yourcosplay.github.io/categories#Animal-Crossing)
 - [Attack on Titan](https://yourcosplay.github.io/categories#Attack-on-Titan)
 
+# B
+- [Bocchi The Rock](https://yourcosplay.github.io/categories#Bocchi-The-Rock)
+
 # C
 - [Chainsawn Man](https://yourcosplay.github.io/categories#Chainsaw-Man)
 
