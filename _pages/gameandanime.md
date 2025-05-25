@@ -6,7 +6,14 @@ comments: true
 ---
 
 # A
+- [Animal Crossing](https://yourcosplay.github.io/categories#Animal-Crossing)
 - [Attack on Titan](https://yourcosplay.github.io/categories#Attack-on-Titan)
+
+# C
+- [Chainsawn Man](https://yourcosplay.github.io/categories#Chainsaw-Man)
+
+# E
+- [Evangelion](https://yourcosplay.github.io/categories#Evangelion)
 
 # F
 - [Final Fantasy](https://yourcosplay.github.io/categories#Final-Fantasy)
