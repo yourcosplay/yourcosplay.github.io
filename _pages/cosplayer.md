@@ -6,5 +6,5 @@ comments: true
 ---
 
 # A
-- [Alina Becker] (https://yourcosplay.github.io/categories#Alina-Becker)
-- [Asagi Kawaii] (https://yourcosplay.github.io/categories#Asagi-Kawaii)
+- [Alina Becker](https://yourcosplay.github.io/categories#Alina-Becker)
+- [Asagi Kawaii](https://yourcosplay.github.io/categories#Asagi-Kawaii)
