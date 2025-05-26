@@ -27,7 +27,11 @@ comments: true
 # H
 - [Hololive](https://yourcosplay.github.io/categories#Hololive)
 
+# L
+- [League Of Legends](https://yourcosplay.github.io/categories#League-Of-Legends)
+
 # N
+- [Neon Genesis Evangelion](https://yourcosplay.github.io/categories#Neon-Genesis-Evangelion)
 - [Nier: Automata](https://yourcosplay.github.io/categories#Nier-Automata)
 
 # O

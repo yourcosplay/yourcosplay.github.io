@@ -24,6 +24,9 @@ comments: true
 # H
 - [Hitori Gotou](https://yourcosplay.github.io/categories#Hitori-Gotou)
 
+# J
+- [Jinx](https://yourcosplay.github.io/categories#Jinx)
+
 # M
 - [Makima](https://yourcosplay.github.io/categories#Makima)
 - [Meiko Shiraki](https://yourcosplay.github.io/categories#Meiko-Shiraki)
@@ -35,6 +38,7 @@ comments: true
 - [Princess Zelda](https://yourcosplay.github.io/categories#Princess-Zelda)
 
 # R
+- [Rei Ayanami](https://yourcosplay.github.io/categories#Rei-Ayanami)
 - [Rem](https://yourcosplay.github.io/categories#Rem)
 
 # T
