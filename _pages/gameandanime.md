@@ -5,6 +5,9 @@ permalink: /gameandanime
 comments: true
 ---
 
+# 0
+- [2.5 Dimensional Seduction](https://yourcosplay.github.io/categories#25-Dimensional-Seduction)
+
 # A
 - [Animal Crossing](https://yourcosplay.github.io/categories#Animal-Crossing)
 - [Attack on Titan](https://yourcosplay.github.io/categories#Attack-on-Titan)
@@ -38,6 +41,7 @@ comments: true
 - [Overwatch](https://yourcosplay.github.io/categories#Overwatch)
 
 # P
+- [Pokemon](https://yourcosplay.github.io/categories#Pokemon)
 - [Prison School](https://yourcosplay.github.io/categories#Prison-School)
 
 # R

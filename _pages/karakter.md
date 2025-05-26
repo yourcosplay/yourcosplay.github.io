@@ -40,9 +40,11 @@ comments: true
 # R
 - [Rei Ayanami](https://yourcosplay.github.io/categories#Rei-Ayanami)
 - [Rem](https://yourcosplay.github.io/categories#Rem)
+- [Ririsa Amano](https://yourcosplay.github.io/categories#Ririsa-Amano)
 
 # T
 - [Tifa Lockhart](https://yourcosplay.github.io/categories#Tifa-Lockhart)
 
 # V
+- [Vaporeon](https://yourcosplay.github.io/categories#Vaporeon)
 - [Velma Dinkley](https://yourcosplay.github.io/categories#Velma-Dinkley)
