@@ -24,6 +24,9 @@ comments: true
 # G
 - [Ghost in the Shell](https://yourcosplay.github.io/categories#Ghost-in-the-Shell)
 
+# H
+- [Hololive](https://yourcosplay.github.io/categories#Hololive)
+
 # N
 - [Nier: Automata](https://yourcosplay.github.io/categories#Nier-Automata)
 
@@ -35,6 +38,10 @@ comments: true
 
 # R
 - [Re: Zero](https://yourcosplay.github.io/categories#Re-Zero)
+
+# S
+- [Scooby-doo](https://yourcosplay.github.io/categories#Scooby-doo)
+- [Spider-man](https://yourcosplay.github.io/categories#Spider-man)
 
 # T
 - [The Legend Of Zelda](https://yourcosplay.github.io/categories#The-Legend-Of-Zelda)

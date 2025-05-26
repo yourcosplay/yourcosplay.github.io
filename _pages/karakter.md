@@ -17,6 +17,10 @@ comments: true
 # D
 - [D.Va](https://yourcosplay.github.io/categories#DVa)
 
+# G
+- [Gawr Gura](https://yourcosplay.github.io/categories#Gawr-Gura)
+- [Gwen Stacy](https://yourcosplay.github.io/categories#Gwen-Stacy)
+
 # H
 - [Hitori Gotou](https://yourcosplay.github.io/categories#Hitori-Gotou)
 
@@ -35,3 +39,6 @@ comments: true
 
 # T
 - [Tifa Lockhart](https://yourcosplay.github.io/categories#Tifa-Lockhart)
+
+# V
+- [Velma Dinkley](https://yourcosplay.github.io/categories#Velma-Dinkley)
