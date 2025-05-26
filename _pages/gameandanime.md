@@ -27,6 +27,9 @@ comments: true
 # N
 - [Nier: Automata](https://yourcosplay.github.io/categories#Nier-Automata)
 
+# O
+- [Overwatch](https://yourcosplay.github.io/categories#Overwatch)
+
 # P
 - [Prison School](https://yourcosplay.github.io/categories#Prison-School)
 
@@ -34,4 +37,5 @@ comments: true
 - [Re: Zero](https://yourcosplay.github.io/categories#Re-Zero)
 
 # T
+- [The Legend Of Zelda](https://yourcosplay.github.io/categories#The-Legend-Of-Zelda)
 - [The Witcher](https://yourcosplay.github.io/categories#The-Witcher)

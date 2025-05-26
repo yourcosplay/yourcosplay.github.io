@@ -14,6 +14,9 @@ comments: true
 # C
 - [Ciri](https://yourcosplay.github.io/categories#Ciri)
 
+# D
+- [D.Va](https://yourcosplay.github.io/categories#DVa)
+
 # H
 - [Hitori Gotou](https://yourcosplay.github.io/categories#Hitori-Gotou)
 
@@ -23,6 +26,9 @@ comments: true
 - [Misato Katsuragi](https://yourcosplay.github.io/categories#Misato-Katsuragi)
 - [Motoko Kusanagi](https://yourcosplay.github.io/categories#Motoko-Kusanagi)
 - [Mikasa Ackerman](https://yourcosplay.github.io/categories#Mikasa-Ackerman)
+
+# P
+- [Princess Zelda](https://yourcosplay.github.io/categories#Princess-Zelda)
 
 # R
 - [Rem](https://yourcosplay.github.io/categories#Rem)
