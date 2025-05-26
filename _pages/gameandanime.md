@@ -29,3 +29,9 @@ comments: true
 
 # P
 - [Prison School](https://yourcosplay.github.io/categories#Prison-School)
+
+# R
+- [Re: Zero](https://yourcosplay.github.io/categories#Re-Zero)
+
+# T
+- [The Witcher](https://yourcosplay.github.io/categories#The-Witcher)

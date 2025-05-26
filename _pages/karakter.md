@@ -6,10 +6,13 @@ comments: true
 ---
 
 # 0
--[2B](https://yourcosplay.github.io/categories#2B)
+- [2B](https://yourcosplay.github.io/categories#2B)
 
 # A
 - [Ankha](https://yourcosplay.github.io/categories#Ankha)
+
+# C
+- [Ciri](https://yourcosplay.github.io/categories#Ciri)
 
 # H
 - [Hitori Gotou](https://yourcosplay.github.io/categories#Hitori-Gotou)
@@ -20,6 +23,9 @@ comments: true
 - [Misato Katsuragi](https://yourcosplay.github.io/categories#Misato-Katsuragi)
 - [Motoko Kusanagi](https://yourcosplay.github.io/categories#Motoko-Kusanagi)
 - [Mikasa Ackerman](https://yourcosplay.github.io/categories#Mikasa-Ackerman)
+
+# R
+- [Rem](https://yourcosplay.github.io/categories#Rem)
 
 # T
 - [Tifa Lockhart](https://yourcosplay.github.io/categories#Tifa-Lockhart)
