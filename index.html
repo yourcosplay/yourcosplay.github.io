@@ -9,9 +9,9 @@ title: "Home - CosShowcase Gallery"
     <input type="text" id="cosplaySearch" placeholder="Cari nama cosplayer, karakter, atau tag...">
   </div>
 
-  <!-- Grid Postingan -->
+  <!-- Grid Postingan (Diperbaiki agar mematuhi batas 9 post dari _config.yml) -->
   <section class="homepage-grid">
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
       <!-- Logika data-category mendukung array (multi-kategori) maupun string tunggal -->
       <article class="post-card" data-category="{% if post.category %}{{ post.category | join: ' ' | slugify }}{% else %}unassigned{% endif %}">
         <a href="{{ post.url | relative_url }}">
@@ -33,6 +33,25 @@ title: "Home - CosShowcase Gallery"
       </article>
     {% endfor %}
   </section>
+
+  <!-- Tombol Navigasi Halaman (Pagination) -->
+  {% if paginator.total_pages > 1 %}
+  <nav class="pagination-wrapper" style="text-align: center; margin: 40px 0; display: flex; justify-content: center; gap: 15px; align-items: center;">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}" class="btn-page" style="padding: 8px 16px; background: #1e1e24; color: #fff; border-radius: 6px; text-decoration: none; border: 1px solid #333;">« Prev</a>
+    {% else %}
+      <span class="btn-page disabled" style="padding: 8px 16px; background: #121214; color: #555; border-radius: 6px; border: 1px solid #222; cursor: not-allowed;">« Prev</span>
+    {% endif %}
+
+    <span class="page-number" style="color: #888; font-weight: 500;">Halaman {{ paginator.page }} dari {{ paginator.total_pages }}</span>
+
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}" class="btn-page" style="padding: 8px 16px; background: #1e1e24; color: #fff; border-radius: 6px; text-decoration: none; border: 1px solid #333;">Next »</a>
+    {% else %}
+      <span class="btn-page disabled" style="padding: 8px 16px; background: #121214; color: #555; border-radius: 6px; border: 1px solid #222; cursor: not-allowed;">Next »</span>
+    {% endif %}
+  </nav>
+  {% endif %}
 </main>
 
 <script>
