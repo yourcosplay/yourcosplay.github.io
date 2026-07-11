@@ -9,14 +9,12 @@ title: "Home - CosShowcase Gallery"
     <input type="text" id="cosplaySearch" placeholder="Cari nama cosplayer, karakter, atau tag...">
   </div>
 
-  <!-- Grid Postingan (Diperbaiki agar mematuhi batas 9 post dari _config.yml) -->
-  <section class="homepage-grid">
+  <!-- Grid Postingan Utama -->
+  <section class="homepage-grid" id="mainPostGrid">
     {% for post in paginator.posts %}
-      <!-- Logika data-category mendukung array (multi-kategori) maupun string tunggal -->
       <article class="post-card" data-category="{% if post.category %}{{ post.category | join: ' ' | slugify }}{% else %}unassigned{% endif %}">
         <a href="{{ post.url | relative_url }}">
           <div class="card-thumb" style="background-image: url('{{ post.featured_image }}');">
-            <!-- Menampilkan kategori pertama sebagai badge utama -->
             <span class="card-badge">
               {% if post.category.first %}
                 {{ post.category.first | replace: '-', ' ' | upcase }}
@@ -34,21 +32,56 @@ title: "Home - CosShowcase Gallery"
     {% endfor %}
   </section>
 
-  <!-- Tombol Navigasi Halaman (Pagination) -->
+  <!-- DATABASE CADANGAN (Tersembunyi, khusus agar fitur Cari & Kategori berfungsi 100% Global) -->
+  <div id="globalPostData" style="display: none;">
+    {% for post in site.posts %}
+      <article class="post-card" data-category="{% if post.category %}{{ post.category | join: ' ' | slugify }}{% else %}unassigned{% endif %}">
+        <a href="{{ post.url | relative_url }}">
+          <div class="card-thumb" style="background-image: url('{{ post.featured_image }}');">
+            <span class="card-badge">
+              {% if post.category.first %}
+                {{ post.category.first | replace: '-', ' ' | upcase }}
+              {% else %}
+                {{ post.category | replace: '-', ' ' | upcase }}
+              {% endif %}
+            </span>
+          </div>
+          <div class="card-details">
+            <h2>{{ post.title }}</h2>
+            <span class="card-date">{{ post.date | date: "%d %B %Y" }}</span>
+          </div>
+        </a>
+      </article>
+    {% endfor %}
+  </div>
+
+  <!-- Tombol Navigasi Halaman dengan Fitur Angka (1, 2, 3...) -->
   {% if paginator.total_pages > 1 %}
-  <nav class="pagination-wrapper" style="text-align: center; margin: 40px 0; display: flex; justify-content: center; gap: 15px; align-items: center;">
+  <nav class="pagination-wrapper" id="paginationNav" style="text-align: center; margin: 40px 0; display: flex; justify-content: center; gap: 8px; align-items: center; flex-wrap: wrap;">
+    
+    <!-- Tombol Prev -->
     {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | relative_url }}" class="btn-page" style="padding: 8px 16px; background: #1e1e24; color: #fff; border-radius: 6px; text-decoration: none; border: 1px solid #333;">« Prev</a>
-    {% else %}
-      <span class="btn-page disabled" style="padding: 8px 16px; background: #121214; color: #555; border-radius: 6px; border: 1px solid #222; cursor: not-allowed;">« Prev</span>
+      <a href="{{ paginator.previous_page_path | relative_url }}" class="btn-page" style="padding: 8px 14px; background: #1e1e24; color: #fff; border-radius: 6px; text-decoration: none; border: 1px solid #333;">«</a>
     {% endif %}
 
-    <span class="page-number" style="color: #888; font-weight: 500;">Halaman {{ paginator.page }} dari {{ paginator.total_pages }}</span>
+    <!-- LOOPING ANGKA HALAMAN -->
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <!-- Angka Halaman Aktif saat ini -->
+        <span class="btn-page active" style="padding: 8px 14px; background: #38bdf8; color: #000; font-weight: bold; border-radius: 6px; border: 1px solid #38bdf8;">{{ page }}</span>
+      {% else %}
+        <!-- Angka Halaman Lain -->
+        {% if page == 1 %}
+          <a href="{{ '/' | relative_url }}" class="btn-page" style="padding: 8px 14px; background: #1e1e24; color: #fff; border-radius: 6px; text-decoration: none; border: 1px solid #333;">1</a>
+        {% else %}
+          <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}" class="btn-page" style="padding: 8px 14px; background: #1e1e24; color: #fff; border-radius: 6px; text-decoration: none; border: 1px solid #333;">{{ page }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
 
+    <!-- Tombol Next -->
     {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | relative_url }}" class="btn-page" style="padding: 8px 16px; background: #1e1e24; color: #fff; border-radius: 6px; text-decoration: none; border: 1px solid #333;">Next »</a>
-    {% else %}
-      <span class="btn-page disabled" style="padding: 8px 16px; background: #121214; color: #555; border-radius: 6px; border: 1px solid #222; cursor: not-allowed;">Next »</span>
+      <a href="{{ paginator.next_page_path | relative_url }}" class="btn-page" style="padding: 8px 14px; background: #1e1e24; color: #fff; border-radius: 6px; text-decoration: none; border: 1px solid #333;">»</a>
     {% endif %}
   </nav>
   {% endif %}
@@ -58,35 +91,53 @@ title: "Home - CosShowcase Gallery"
   document.addEventListener("DOMContentLoaded", function() {
     const searchInput = document.getElementById('cosplaySearch');
     const categoryLinks = document.querySelectorAll('.nav-categories a');
-    const posts = document.querySelectorAll('.post-card');
     
-    // Membaca parameter URL (misal: ?cat=gravure)
+    const mainGrid = document.getElementById('mainPostGrid');
+    const globalData = document.getElementById('globalPostData');
+    const paginationNav = document.getElementById('paginationNav');
+    
+    // Backup isi grid asli (9 post bawaan halaman ini)
+    const originalGridHTML = mainGrid.innerHTML;
+
+    // Ambil parameter kategori dari URL (?cat=...)
     const urlParams = new URLSearchParams(window.location.search);
     let currentCategory = urlParams.get('cat') || 'semua';
     let searchQuery = '';
 
-    // Fungsi utama: Sinkronisasi Filter Kategori & Kata Kunci Pencarian
     function filterPosts() {
-      posts.forEach(function(post) {
-        let postTitle = post.querySelector('h2').textContent.toLowerCase();
-        // Mengambil semua kategori dari data-attribute dan memecahnya menjadi array
-        let postCategories = (post.getAttribute('data-category') || '').split(' ');
-
-        // 1. Cek apakah judul mengandung kata kunci pencarian
-        let matchSearch = postTitle.includes(searchQuery);
+      // Jika pengguna melakukan pencarian atau memilih kategori tertentu
+      if (searchQuery !== '' || currentCategory !== 'semua') {
         
-        // 2. Cek apakah postingan masuk dalam kategori yang dipilih
-        let matchCategory = (currentCategory === 'semua') || (postCategories.includes(currentCategory));
+        // 1. Sembunyikan navigasi angka halaman karena sedang mode pencarian global
+        if (paginationNav) paginationNav.style.display = 'none';
+        
+        // 2. Ganti isi grid utama menggunakan database global (semua postingan)
+        mainGrid.innerHTML = globalData.innerHTML;
+        
+        // 3. Lakukan filter pencarian menyeluruh
+        const activePosts = mainGrid.querySelectorAll('.post-card');
+        activePosts.forEach(function(post) {
+          let postTitle = post.querySelector('h2').textContent.toLowerCase();
+          let postCategories = (post.getAttribute('data-category') || '').split(' ');
 
-        // Tampilkan hanya jika cocok keduanya
-        if (matchSearch && matchCategory) {
-          post.style.display = "";
-        } else {
-          post.style.display = "none";
-        }
-      });
+          let matchSearch = postTitle.includes(searchQuery);
+          let matchCategory = (currentCategory === 'semua') || (postCategories.includes(currentCategory));
 
-      // Update UI tombol kategori aktif
+          if (matchSearch && matchCategory) {
+            post.style.display = "";
+          } else {
+            post.style.display = "none";
+          }
+        });
+
+      } else {
+        // Jika kolom pencarian kosong dan memilih kategori "Semua"
+        // Kembalikan ke mode pembagian halaman (pagination) normal bawaan Jekyll
+        mainGrid.innerHTML = originalGridHTML;
+        if (paginationNav) paginationNav.style.display = 'flex';
+      }
+
+      // Update UI menu kategori aktif
       categoryLinks.forEach(link => {
         if (link.getAttribute('data-filter') === currentCategory) {
           link.classList.add('active');
@@ -96,10 +147,10 @@ title: "Home - CosShowcase Gallery"
       });
     }
 
-    // Jalankan filter saat pertama kali halaman dimuat
+    // Jalankan sistem filter di awal muat halaman
     filterPosts();
 
-    // Event saat mengetik di kolom pencarian
+    // Event input pencarian mengetik
     if (searchInput) {
       searchInput.addEventListener('input', function() {
         searchQuery = this.value.toLowerCase().trim();
@@ -107,14 +158,12 @@ title: "Home - CosShowcase Gallery"
       });
     }
 
-    // Event saat mengklik menu kategori
+    // Event klik menu kategori
     categoryLinks.forEach(function(link) {
       link.addEventListener('click', function(e) {
         e.preventDefault();
-        
         currentCategory = this.getAttribute('data-filter');
         
-        // Memperbarui URL tanpa refresh halaman
         const newUrl = currentCategory === 'semua' ? '/' : '/?cat=' + currentCategory;
         window.history.pushState({}, '', newUrl);
         
