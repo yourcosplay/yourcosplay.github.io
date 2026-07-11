@@ -2,6 +2,37 @@
 layout: default
 ---
 
+<style>
+  /* KUSTOMISASI FORCE LIGHTBOX ANTI-KEDIP & TOMBOL NAVIGASI JELAS */
+  .sl-wrapper {
+    background: rgba(255, 255, 255, 0.98) !important; /* Latar belakang galeri putih solid/terang agar serasi dengan Light Mode */
+  }
+  
+  /* Memaksa tombol Close (X) dan panah navigasi selalu terlihat jelas */
+  .sl-wrapper .sl-close, 
+  .sl-wrapper .sl-navigation button {
+    color: #111111 !important; /* Warna hitam solid */
+    opacity: 1 !important;     /* Hilangkan efek transparan bawaan */
+    font-weight: bold !important;
+    text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.8); /* Efek bayangan tipis agar makin kontras */
+  }
+
+  .sl-wrapper .sl-close {
+    font-size: 3rem !important; /* Memperbesar ukuran tombol X di HP agar mudah ditekan */
+    top: 20px !important;
+    right: 20px !important;
+  }
+
+  /* Menghilangkan efek kedipan hitam-putih saat perpindahan gambar di HP */
+  .sl-wrapper .sl-image {
+    transition: none !important;
+    animation: none !important;
+  }
+  .sl-transition {
+    transition: none !important;
+  }
+</style>
+
 <main class="container">
   <!-- 1. Judul Postingan & Metadata Kategori/Tag -->
   <header class="post-header">
@@ -89,7 +120,7 @@ layout: default
   {% endif %}
 </main>
 
-<!-- Sistem Kontrol Lightbox dengan Animasi Anti-Sakit Mata -->
+<!-- Sistem Kontrol Lightbox Murni -->
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     let lightboxInstance = null;
@@ -120,26 +151,15 @@ layout: default
     }
 
     if (document.querySelector('.masonry-gallery a')) {
-      // OPSI 1: MODE GESER (SLIDE) YANG LEMBUT DI MATA
+      // SETELAN INSTAN INSTANT-SWITCH ANTI KEDIP UNTUK PERANGKAT MOBILE & DESKTOP
       lightboxInstance = new SimpleLightbox('.masonry-gallery a', { 
-        overlayOpacity: 0.95, 
-        animationSpeed: 250,    // Kecepatan geser yang pas (milidetik)
-        animationSlide: true,   // AKTIFKAN MODE GESER (Bukan kedip/fade)
+        overlayOpacity: 0.98, 
+        animationSpeed: 0,      // Diubah ke 0 agar langsung ganti seketika (tanpa jeda kedipan animasi)
+        animationSlide: false,   // Nonaktifkan slide karena rentan memicu blink di browser mobile tertentu
+        fadeSpeed: 0,           // Hilangkan efek pudar transisi lama
         loop: true,
         docClose: true
       });
-
-      /* 
-      // OPSI 2: JIKA INGIN TIBA-TIBA GANTI INSTAN (TANPA ANIMASI SAMA SEKALI)
-      // Jika ingin opsi ini, hapus Opsi 1 di atas lalu hilangkan tanda komentar kode di bawah ini:
-      
-      lightboxInstance = new SimpleLightbox('.masonry-gallery a', { 
-        overlayOpacity: 0.95, 
-        animationSpeed: 0,      // 0 berarti instan tanpa jeda animasi
-        animationSlide: false,
-        loop: true
-      });
-      */
 
       lightboxInstance.on('show.simplelightbox', function() {
         const oldBtn = document.getElementById('sl-play-btn');
