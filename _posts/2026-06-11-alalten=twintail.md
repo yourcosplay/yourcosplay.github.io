@@ -1,0 +1,26 @@
+---
+layout: gallery
+title: "Alalten - Twintail"
+category: gravure
+tags: [Alalten]
+
+# 1. Gambar Sampul Depan di Halaman Utama (Wajib Link Eksternal / Direct URL)
+featured_image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg68F9qHe2bzj4K38B5uHwdPo9nln2bCSFX2qnbChwfAUkYzAn7Oqw9wp8PivbIlhu2-BThS9ednxLfGTbBTog0Yln8OEy_FWkGEiJ0CVs2E1NM1O0Jm2l6YY0WO9ikl1hsTfDVGpDifyetwRrrGz-j14-H5vmOrs2LmhdWi6f2i_axeiaTNnyCjuGLbJg/s0/img20260711_152437.webp"
+
+
+# 4. Daftar Gambar Galeri (Semua otomatis masuk ke sistem Lightbox & Masonry Grid)
+images:
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3DWovlRfLmnaTvy7rRGlssSZDySa9bPg5ourJssnBWLfK-Bg_TFvmXdAiCAzTPWAW6DV8EMQTgghg_UsXCSzK7fQNMVCsubTI9JT4NmK7dwAJJZIk9gfChsgsZCpqJmbJd-NMInHkihsvYnHf12Ycv5gmZvV2QAd8cBlEGrRcOL8QdnfFmK2TvxWW6Uk/s0/44_%5Bwebsite%20by%20kawai.day%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWNN80-ooXah-zKcWt1wNSSla5HswvJVqak9ZC89guAK0Y8smNUypPliJo30Kgx_br7s3I53GShzmtWVCO8qL6l8jdEsFEx0nX-iuKgPQ4Gr0NV6piPd13kqispBZdprc6W4XJ9MRxJZv_h0ZNens34xS1bARcEoozkQB7NV8aq-0Qswlm-Vc7NofLOpQ/s0/45_%5Bwebsite%20by%20kawai.day%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiS34ZE6uYMvlGl44Q0SNTMsfabWcH7HKwtppkPiKxjYXPDdXQtNkwXlbtKidL4jYA_iMkSoJN5XhymOvJ3L4jjgEwZNn8m4zun8hzkliXuL-CfhiCWCTttgPIZu3OP74AL06TkUyj7yjRnhUJsXAQCKayif_0X1yRoaTGlc1d8hK9DguKTZgWZS9TLe_k/s0/46_%5Bwebsite%20by%20kawai.day%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnZhAMwUi8G344TsZ3iBR62_dpK1NO20l5yg44TO6Lg_FSQmeWxyzdESgLzg916iak4r_pPILdverXETLKUzCkyEV9MAlhw1i6SN2VeN-qhFlmW5JrWcISohoKAOwMGHmfYQBMATcZmnhiIGoHSMioJbAG99gjvxv1XswqcapSON5vmulr1hSU2DWjZtc/s0/47_%5Bwebsite%20by%20kawai.day%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinoiraXQprrr28p9sxj2v7aiUsxLwxsOKbIlGwVq-ALRXv7HG1gqD29Ng5zSiYOAMpFC14Dg2aPJBg5Tgzw2kBlMb9HIbb_gL0Rb7d9T2t459V_wem6Z46BtzsOpQYM452L78qSKGrcQy_VyLrdXSldxjIzrGH7T1A-gejVcm4joTGX8aG0Qxk8T9x99g/s0/48_%5Bwebsite%20by%20kawai.day%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBNjUfgUktXhnEcqM1RbnFt70kh7qt8BQNATwUciqQNgyQmoI3B4m4TIhgwPCX_RQPd9eK0uPfbwDhK_jH9xpxr1Pm8zjLfxHNptjNQ_3MvEo5Q-BKtvYmgQaKtQircYObtlbPC8A51M2Hrm8kDs6wFa7yjDA7-0bngWV0fULN_IBObUOSoA1WcN1A4m0/s0/49_%5Bwebsite%20by%20kawai.day%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9a1HVwmei2xqDjis83vq2Jf44MRJJ8BtmnoTNtFfsxdxb1OiMPcIOw4vOopFE1MrHw6aHUWNOxZVobse58yUHRJliS_VrVWbym8IuNrqk7JrQcuMPyKoi2jEdVPGzUjgN26Itq_qnnUAnjozbljJNLxuoyXPaQAVRyUUK2ZhxeNbplZQtZ77DoUb44OA/s0/50_%5Bwebsite%20by%20kawai.day%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGjOCTzBsjvAC0ibKx_xvSv_owhmuh58qMsgbOmfeBWJb5bcfL_z9Tf8QHCKHWiwmkScbuHtBDXfmOLbXrqhDwOMxzDhjNxcxlKaTJbamgbDxlO6_w5Ec_fLSjDboZKWPZ6f5lJhAizvHYlVISZpnF092-KjAIEctBCiIrEmkrIoj7FMsYjbSiIgNCACo/s0/51_%5Bwebsite%20by%20kawai.day%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfDBlvgkKPsJpov9rt2CID3EKeYv8LR6wzVuvSoHONmsa56QOyJAseW9B8OaHRGXECyjhKI2bk7xNTmOJWJzmWfd1Yglj4WvLJz1c6grkCSOqv3UnjwZJzZJ32C1evNd5rIZoQL6-ikO-PvoAC6HIb-2CkwaQHXVRI84tgTgSqiiAZOwvW3xQQEkqkxxU/s0/52_%5Bwebsite%20by%20kawai.day%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsj2BscqS1lPbnh7tHoQSZmTngBOD55swZPaW2AVdpU9_gFaKL5cB89iqZPmDuJkqekE5sY_atqr9pUBhnGyM3XD2yJ7AyYSWWs2kMVUAvX4imYLBvV6zv05psMZtgR0zJx3L6tJwx9xNIu6A-70LxyOdTQjAr2BVpu5bSV2GC3v-L4wStj38oFe2U5dY/s0/53_%5Bwebsite%20by%20kawai.day%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAHExte4y3m5lRwIwnVnFmFJ9XHp9NbD10Fj91USEu48L4h7RHvqE91dzOMqM-Go9UD-AJ1ufE671PSdGEOKsr3BkNqFmyBkAyP4zH9tcwoMqfLUeDmaFhu18i_T0TEDa_zn3Evscqa8cXtibYZUQiyMtnsnXolug79Em8ilxjhdGj6tud7G8ht6LJuPI/s0/54_%5Bwebsite%20by%20kawai.day%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1Fy3oIyFTOhrsz_Ghsz4Tz6r5zio69DDmetnw_60arD1lM2sGdZvvuCeHVSKAFGA889nGgjfpoJylg3w_2sO03Lat4O3JQMUGR6J7geIsyB6HxFPdMZl9dWL_iFqbCya8D6j4IGomAB_wYPpJ49rvRBUSwj0yRVPt1nfROQXwE03JRGopDhpVzzhQ0wg/s0/55_%5Bwebsite%20by%20kawai.day%5D.webp"
+---
+

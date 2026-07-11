@@ -89,7 +89,7 @@ layout: default
   {% endif %}
 </main>
 
-<!-- Sistem Kontrol Lightbox Murni -->
+<!-- Sistem Kontrol Lightbox dengan Animasi Anti-Sakit Mata -->
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     let lightboxInstance = null;
@@ -120,11 +120,26 @@ layout: default
     }
 
     if (document.querySelector('.masonry-gallery a')) {
+      // OPSI 1: MODE GESER (SLIDE) YANG LEMBUT DI MATA
       lightboxInstance = new SimpleLightbox('.masonry-gallery a', { 
         overlayOpacity: 0.95, 
-        fadeSpeed: 150,
+        animationSpeed: 250,    // Kecepatan geser yang pas (milidetik)
+        animationSlide: true,   // AKTIFKAN MODE GESER (Bukan kedip/fade)
+        loop: true,
+        docClose: true
+      });
+
+      /* 
+      // OPSI 2: JIKA INGIN TIBA-TIBA GANTI INSTAN (TANPA ANIMASI SAMA SEKALI)
+      // Jika ingin opsi ini, hapus Opsi 1 di atas lalu hilangkan tanda komentar kode di bawah ini:
+      
+      lightboxInstance = new SimpleLightbox('.masonry-gallery a', { 
+        overlayOpacity: 0.95, 
+        animationSpeed: 0,      // 0 berarti instan tanpa jeda animasi
+        animationSlide: false,
         loop: true
       });
+      */
 
       lightboxInstance.on('show.simplelightbox', function() {
         const oldBtn = document.getElementById('sl-play-btn');
