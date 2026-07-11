@@ -3,27 +3,41 @@ layout: default
 ---
 
 <style>
-  /* KUSTOMISASI FORCE LIGHTBOX ANTI-KEDIP & TOMBOL NAVIGASI JELAS */
-  .sl-wrapper {
-    background: rgba(255, 255, 255, 0.98) !important; /* Latar belakang galeri putih solid/terang agar serasi dengan Light Mode */
+  /* CONFIGURATION PREMIUM DARK MODE LIGHTBOX */
+  .sl-overlay {
+    background: #0a0a0c !important; /* Mengembalikan latar belakang hitam pekat malam */
+    opacity: 0.98 !important;
   }
   
-  /* Memaksa tombol Close (X) dan panah navigasi selalu terlihat jelas */
-  .sl-wrapper .sl-close, 
-  .sl-wrapper .sl-navigation button {
-    color: #111111 !important; /* Warna hitam solid */
-    opacity: 1 !important;     /* Hilangkan efek transparan bawaan */
-    font-weight: bold !important;
-    text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.8); /* Efek bayangan tipis agar makin kontras */
-  }
-
+  /* TOMBOL CLOSE (X) - Terlihat Jelas di Segala Kondisi Browser */
   .sl-wrapper .sl-close {
-    font-size: 3rem !important; /* Memperbesar ukuran tombol X di HP agar mudah ditekan */
+    color: #ffffff !important; /* Warna text X putih */
+    background: rgba(255, 255, 255, 0.2) !important; /* Lingkaran pelindung putih transparan */
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 50% !important;
+    width: 45px !important;
+    height: 45px !important;
+    line-height: 42px !important;
+    text-align: center !important;
+    font-size: 2rem !important;
     top: 20px !important;
     right: 20px !important;
+    opacity: 1 !important;
+    border: 1px solid rgba(255, 255, 255, 0.4) !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
   }
 
-  /* Menghilangkan efek kedipan hitam-putih saat perpindahan gambar di HP */
+  /* TOMBOL NAVIGASI (PANAH KIRI / KANAN) DI HP */
+  .sl-wrapper .sl-navigation button {
+    color: #ffffff !important;
+    background: rgba(0, 0, 0, 0.4) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    opacity: 0.8 !important;
+    border-radius: 6px;
+  }
+
+  /* FORCE ANTI-BLINK TRANSITION FOR MOBILE DEVICES */
   .sl-wrapper .sl-image {
     transition: none !important;
     animation: none !important;
@@ -45,7 +59,7 @@ layout: default
     </div>
   </header>
 
-  <!-- 2. Blok Multi-Video Player Universal (Optimal untuk Official Blogger Token Embed) -->
+  <!-- 2. Blok Multi-Video Player Universal -->
   {% if page.videos and page.videos.size != 0 %}
   <section class="video-gallery-container">
     <div class="video-grid-flex">
@@ -151,12 +165,12 @@ layout: default
     }
 
     if (document.querySelector('.masonry-gallery a')) {
-      // SETELAN INSTAN INSTANT-SWITCH ANTI KEDIP UNTUK PERANGKAT MOBILE & DESKTOP
+      // SETELAN INSTAN ANTI KEDIP UNTUK MOBILE & DESKTOP
       lightboxInstance = new SimpleLightbox('.masonry-gallery a', { 
         overlayOpacity: 0.98, 
-        animationSpeed: 0,      // Diubah ke 0 agar langsung ganti seketika (tanpa jeda kedipan animasi)
-        animationSlide: false,   // Nonaktifkan slide karena rentan memicu blink di browser mobile tertentu
-        fadeSpeed: 0,           // Hilangkan efek pudar transisi lama
+        animationSpeed: 0,      
+        animationSlide: false,   
+        fadeSpeed: 0,           
         loop: true,
         docClose: true
       });
