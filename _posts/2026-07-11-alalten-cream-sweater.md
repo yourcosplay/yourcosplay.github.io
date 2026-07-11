@@ -1,0 +1,25 @@
+---
+layout: gallery
+title: "Alalten - Cream Sweater"
+category: gravure
+tags: [Alalten]
+
+# 1. Gambar Sampul Depan di Halaman Utama (Wajib Link Eksternal / Direct URL)
+featured_image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjfEMNR_HU1ybA3RWkDfBMLeTxVG_1mtgg7pT78wWe2wFbZmmHsPXoXi2_PCSpDE11KWJL1kA4eVuo56rhMKMvfjtMfLF5KHmh3fw7x-lr8MmemPTRKm7djK-QVq5YxkvquNX_Nd-0CPEHaUWbnjUyfb5gMKSOjZIfrQYiqlgC2VcablNdqPylpTC0oHU/s0/alalten%20-%20cream%20sweater.webp"
+
+# 4. Daftar Gambar Galeri (Semua otomatis masuk ke sistem Lightbox & Masonry Grid)
+images:
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgikGWMSnq0rZeh8qOSryKrAOkvodTQ4WiTLYw8ejWHB9wAF_hRRghp1Iz9GYSXfBZ-EJeX5Y-cA1anhrKk9OtD6opDgLHEz_G7eqfmuN0Gxaryqp3Ps-qakRn_nYRb2NV8fUdoE_eUZNIx_QMrh0mQBw7o8Xo3zLVPadiA7oMFD2N1xYMsqRUsuVhzAsM/s0/1_%5Bwebsite%20by%20kawai.day%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsHFvw5vgXkjpZwep5JXb9azpPU_mJUto3rjTCCYZ5DebcG3vECmNDfPnrMZh2hJGqSyqhO43LBNccfLJDw1hUE6WVu6oIKk0dYpJxbSqdAGxWaLRJ8rvvyQBxoWKBVKCt9H_tbDJjy4ZvF6QxXB0Yq1S9KFwDBlSkpoGgfLUv4J_kaAXOuwVHaValt0M/s0/2_%5Bwebsite%20by%20kawai.day%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcmufHadwDKkIx0iUZ5cRr-eaWPYCS9U4AA7upIdSgmU-fbcJyr1z-4adJCBqcLRUL6ZiLXnxcqGQgNuR_VqgIzI9HWDvKI5KF4EjG1JcESQJIcyaX783D4MKgwF6Vu_yDb7zfXEXPAfYOj1kIeEjBRtw1Ix5BW0zh0-xr7bVIhnMESySiH0nHPyj4qVA/s0/3_%5Bwebsite%20by%20kawai.day%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9PsocX_uelvVqzcNwKy6Vc3rYgyX-S7KCnL5vKiuiz2M6ujcxj8DbcWTLaDozFW0PSsABpGx1ORa0I5m4MJvs_LYX03mnN6GP3fdd6_IC-rfb3_R1Ngu2z7cWf-QaU1QUT71Ph1ivcnfdFqium2FN5pJKnpfzBsJGh7SMMpbDtdXRDdCTXHFJ-tQ9I84/s0/4_%5Bwebsite%20by%20kawai.day%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIMWYCY7qTwuaL-KPPd1SAOi5il2WyTTMUmMfvFrrL4kqIlwNUkVS4nDNYFeljSBZYADx7V1x7jyxv7cy80qEercuaCj69VOZQpTHFomgPb3QHiJFR5xvfk-fYqMd9pbLwVkFy1cEWt4tzjgERUg3hYnftN_Y2ks6OzNloD28cdcfzTOAzhAKBeFljiCQ/s0/5_%5Bwebsite%20by%20kawai.day%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkXCQ1G1U3BSIKJim2xPMTlNscbjGqyF3xwyeJQOmDO5iaU4z-I2ApGilPZWMDswFjk7PrX8oR1HPbTvLNN9UFHk_XZmsVHI-pn2zXtMNhrAQOhK8JgmvtSSRtF_JFzbcbNYOKrgbZHQYiuOCOW2tb0rqBnFauD2UugW07wtL3xTa99exn06rAyI57EFI/s0/6_%5Bwebsite%20by%20kawai.day%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcCZos7Qi2JeFbbt7WVdAKHYxmADElrrAwbOlvLiMdC_HZasm8qbSEyaDps1JKcn_R8m8Dv7HIArHAPy1U-R8Uf-phHO66F8C93Ci_ePdWleqlwZcOyZf54qnT0teDBrZVDju-m5ku8TC6MPsOb0z3dWgi08IR-tbp8Bi_JpiLAbI6F3XjpyVYxVJIKCQ/s0/7_%5Bwebsite%20by%20kawai.day%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnEPhHFY2satoROKOj3nC8GotHccrJMpOxO5RGUI2AWUe16zkIJnfOavjsZKZgXddexXEgpwXdp0NydkcmqCbyDVUkE8HTayqGHyAACI2fjze8eh5H2nAtm-pGzH94tcFjTLp1N47pRCWrPp7bAKcGeaaq2pHpPewjTaXzY-ZzkhJH7LfPCxa1lHbwW9I/s0/8_%5Bwebsite%20by%20kawai.day%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWwrv_plyBqJHyjha8SyQ1YWhC0fdvCnukwbxznfMByNi8uyM6h1mddX_rmLJ0toQGD5EGy1JeHlYRUxYFTCoRUeItzVbcoPMKEqMR0U4jTfCef-PsRPDpsIL0C-OemFSNy7AoYJXnqsuw2Xfsc99bK2m34XlOfykyYV3iHmTQojhn5GcNx65vS16Qf2Y/s0/9_%5Bwebsite%20by%20kawai.day%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl8qYZhXHXyxlQc8AobuHMziiOmufslHlAQdfDa3bKEiGUTpTu-tzS_ebNi1avYvS7iMaBw3uTxfFHBIgS4IlSRJVn47gr73ylminJCB02RLCsF-fZNU6aVunRbyweIpy9w7mTQHfhHcLMX08FTIjBZrBwTaFLvUw5JQZABEeON5tWqEUoK_-91Xc3nG0/s0/10_%5Bwebsite%20by%20kawai.day%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUguxHncV8NHiM0_pq878w-T_Cg4lwGpunhXWLI9hc7Z3_bkdOHR5fyc2Jjm2ayOYQ4ChDiSam2S-qPLbPcMhFXe7Qu-wqL01nwdnWYjYSv5WVqiWd-0T6lRUfOqBAd4VXt5QuYUUWi52T68ZGIOvhdemgBlHD6ZCGCgb6DP1eKNqao5v_K1FLaHqb7R0/s0/11_%5Bwebsite%20by%20kawai.day%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYcvYpn78h7bWVApIDAWKhPdxxqVZ455QY8RzniPA2Yz4jDPa8VwA5nT7daZFB48xrBAfwto54TbDYcMU1axonL4iYgTmnRV44xcEa-DdwjdYFT2yd5CakKSyU-CmhKp2WQ6D1mq22vPyjfJsx7gmdVBixV3leLXBpUYmGZPtA2558r7oHOodyp6ga1RQ/s0/12_%5Bwebsite%20by%20kawai.day%5D.webp"
+---
+

@@ -1,0 +1,23 @@
+---
+layout: gallery
+title: "Alalten - Spidergirl"
+category: gravure
+tags: [Alalten]
+
+# 1. Gambar Sampul Depan di Halaman Utama (Wajib Link Eksternal / Direct URL)
+featured_image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvGWkXJRgjsSIkno6iRjjPOAh5R7R44ai96LYxgTv-V6V1DnadXD6cuIJUWhy20XZnAq4weknxbk5AI1Di8CyyEJ3YzdiE-pqv-tWtMg52ZLZXpP6Ss2N_lKbi7yZz-tAXOvgMLT1oUVkbJzrSIhITFOC5ibrZMQfb8zSOulx-j88DE8K6cjax1xHDNNM/s0/alalten%20-%20spidergirl.webp"
+
+# 4. Daftar Gambar Galeri (Semua otomatis masuk ke sistem Lightbox & Masonry Grid)
+images:
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5GEBkxyobMybXDsEXCaLl0Y3aacrD2aDeSXISoGZSb6RCsYQgmomiMPur9j3b7b_tlo-hJF95WF5XRvHF9d5Ip0Wy__NTht55MVvRCJC2dDocJEAngrvUlmeNVS0wz3Vhf44IZpg4KXpqGRlP43rU5PWf_ey6DtWF_MuqCFm4pkWE0L_GVrm2l682y-A/s0/788_%5Bwebsite%20by%20kawai.vip%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgARoVMp24qw600HF0uTp1YLmEdVV-UJYKH-kBtD6JKmXwVFh0kVQIs_Tyo0-gF1Udce5Kv4LAgdTZpgz6v7EWslkK6bqtkIv61GhF8lB_SEPCMmRmLk45lTQLkmfpMRmpc5uMwkB9e1nDcjScIHe1xbqRJ7JqozTK3T-fGapRRwk_AVnV0uqkEyH5Pxms/s0/789_%5Bwebsite%20by%20kawai.vip%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTiWygUJeeFmwzi_zyVqehoUc2RjU_hm1cEfC9QPXpQ2T2UB30j4ii4LHrPMP8RsDRf08zmfquiAMxrnxvwc_VTj2Mi-Fw1Lvqoxf-EUS7iUoH7TbgcHFugWI3bOkDDlTo_idkZbWf7ZKoTIvJTND7kVFny1gAcqX-KrWqtn4ORS9ZZVGMCuES8t9fooY/s0/790_%5Bwebsite%20by%20kawai.vip%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilU_1fwJbJbDabJmzkw_KJQ0UHWdArg8JiTx4rtnR-r8Hxx4tOdxpWUMlKYkgNtt0JzlH7DLmELU7xz2_pIH6sSOaACbrrHs4HfP7oVTkPtG-v8Ns7nTtIXbHj1_yPGxE4xrSkVJfBMBJMj7o0ZXNHUOMgrjXO10auwIb_vv1GsCLD5F2G6411Hdhf8Wo/s0/791_%5Bwebsite%20by%20kawai.vip%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDrMmHUr86-fT75qcb024bokMLo-wsIb8Ce0_IP2X_-mxVQsdNuIvf4pq3svLyjy2_dWfZFbGwmICcY7hvPjncdL0cXvCCo3bHPAPR2qXobPT8Qf7dgrWLc5SWpY5YXBdg6ZAY1ymtdaAe42V1wsLwcjq8wXsgQcNf9JCf6dK_FLuVQDa3p_E6VqHKG84/s0/792_%5Bwebsite%20by%20kawai.vip%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha72asK1ppRetCjKxt7tj8Av-GQZnERv_3gCEr8ZNcaeirg0PxgIlhyphenhyphenlwoYbTDlD6IzJfvvMDuUdi4o7nIyWMcfA2wAsiXgjWl8M1Tgg4wFYaDprC9dPNlDwI7RaRJKVf7B5OlL-4wBEzrO8j4XPzOy-YrWgM2fbFIq7i4nmlV4fkUBDU5QZrqYZ2tthE/s0/793_%5Bwebsite%20by%20kawai.vip%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3K_CI0FOTzwrgsAScI6z3tVTvcXJUaaw3Yw533jbm6EiMAMpkysz8EBmviDG0kQBud1yEUPx9qImnHrBNlpRkY2bRFNg44byZy7UeyaDpMDwYI_G9TxOEfgXMLqfjIIfBQCtW8xolt6gLwKrb3o9mDExLf2ycDI12jMHYugQWgJg1ieD2wUKaCLgUEb4/s0/794_%5Bwebsite%20by%20kawai.vip%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1pkBOfwvbsRQdFJ3BoXDcAvQWEfSJnO9DTVef2q11aZVsK05fYbzvv4UrPOfJIrnm-O6hnssO4Ki9iWU3MXt7iG_T-itzhdie8_hf4s2rtiWFp8C-qvT062ycAtodpxNPC-KCTz0WpNKA6MY2JuKTJ0V-4IdmcD-ktbC3NnCQmVB8pX9k5Wh36jMFGUY/s0/795_%5Bwebsite%20by%20kawai.vip%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8Oj3XfV5M6-bLiT5TCLYt0X_CiDeqSxdf5asObZKQhC1_BoJlFvRnuTobbQHhU3xO1GaXxkrVh6x08bVuXH7SwtB48X7IP_qcESPaQeis-KaQgYwEjKZzQKyTiLmMIogeHTACoINkJW8qyNucoo9ImmkpGgbdNSKY61I01hG0LBbEgqGqx3AjkyQIiUs/s0/796_%5Bwebsite%20by%20kawai.vip%5D.webp"
+- "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCpoGrHoNk1P-hq_tVYWfR8d7jPDuUri5xg4JhDXJSRvBkkf_BIOWIVGwDmt-2u1GO7sVdWwqRH3cozDj3k4scr47Uspr9iW9th_oVL4s2u0MUx6aEwfzxTPp6JnZmx28Wu36BInU_pF0QItZh_MKgtMpK3vKr979HWz_ea3HmeP4RuKUmzYmsXSGm4cY/s0/797_%5Bwebsite%20by%20kawai.vip%5D.webp"
+---
+
