@@ -1,35 +1,106 @@
 ---
 layout: default
-title: Home
+title: "Home - CosShowcase Gallery"
 ---
 
-<!-- Posts Index
-================================================== -->
-<section class="recent-posts">
+<main class="container">
+  <!-- Kolom Pencarian Premium -->
+  <div class="search-wrapper">
+    <input type="text" id="cosplaySearch" placeholder="Cari nama cosplayer, karakter, atau tag...">
+  </div>
 
-    <div class="section-title">
+  <!-- Grid Postingan -->
+  <section class="homepage-grid">
+    {% for post in site.posts %}
+      <!-- Logika data-category mendukung array (multi-kategori) maupun string tunggal -->
+      <article class="post-card" data-category="{% if post.category %}{{ post.category | join: ' ' | slugify }}{% else %}unassigned{% endif %}">
+        <a href="{{ post.url | relative_url }}">
+          <div class="card-thumb" style="background-image: url('{{ post.featured_image }}');">
+            <!-- Menampilkan kategori pertama sebagai badge utama -->
+            <span class="card-badge">
+              {% if post.category.first %}
+                {{ post.category.first | replace: '-', ' ' | upcase }}
+              {% else %}
+                {{ post.category | replace: '-', ' ' | upcase }}
+              {% endif %}
+            </span>
+          </div>
+          <div class="card-details">
+            <h2>{{ post.title }}</h2>
+            <span class="card-date">{{ post.date | date: "%d %B %Y" }}</span>
+          </div>
+        </a>
+      </article>
+    {% endfor %}
+  </section>
+</main>
 
-        <h2><span>All Stories</span></h2>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const searchInput = document.getElementById('cosplaySearch');
+    const categoryLinks = document.querySelectorAll('.nav-categories a');
+    const posts = document.querySelectorAll('.post-card');
+    
+    // Membaca parameter URL (misal: ?cat=gravure)
+    const urlParams = new URLSearchParams(window.location.search);
+    let currentCategory = urlParams.get('cat') || 'semua';
+    let searchQuery = '';
 
-    </div>
+    // Fungsi utama: Sinkronisasi Filter Kategori & Kata Kunci Pencarian
+    function filterPosts() {
+      posts.forEach(function(post) {
+        let postTitle = post.querySelector('h2').textContent.toLowerCase();
+        // Mengambil semua kategori dari data-attribute dan memecahnya menjadi array
+        let postCategories = (post.getAttribute('data-category') || '').split(' ');
 
-    <div class="row listrecent">
+        // 1. Cek apakah judul mengandung kata kunci pencarian
+        let matchSearch = postTitle.includes(searchQuery);
+        
+        // 2. Cek apakah postingan masuk dalam kategori yang dipilih
+        let matchCategory = (currentCategory === 'semua') || (postCategories.includes(currentCategory));
 
-        {% for post in paginator.posts %}
+        // Tampilkan hanya jika cocok keduanya
+        if (matchSearch && matchCategory) {
+          post.style.display = "";
+        } else {
+          post.style.display = "none";
+        }
+      });
 
-        {% include postbox.html %}
+      // Update UI tombol kategori aktif
+      categoryLinks.forEach(link => {
+        if (link.getAttribute('data-filter') === currentCategory) {
+          link.classList.add('active');
+        } else {
+          link.classList.remove('active');
+        }
+      });
+    }
 
-        {% endfor %}
+    // Jalankan filter saat pertama kali halaman dimuat
+    filterPosts();
 
-    </div>
+    // Event saat mengetik di kolom pencarian
+    if (searchInput) {
+      searchInput.addEventListener('input', function() {
+        searchQuery = this.value.toLowerCase().trim();
+        filterPosts();
+      });
+    }
 
-</section>
-
-<!-- Pagination
-================================================== -->
-<div class="bottompagination">
-<div class="pointerup"><i class="fa fa-caret-up"></i></div>
-<span class="navigation" role="navigation">
-    {% include pagination.html %}
-</span>
-</div>
+    // Event saat mengklik menu kategori
+    categoryLinks.forEach(function(link) {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        currentCategory = this.getAttribute('data-filter');
+        
+        // Memperbarui URL tanpa refresh halaman
+        const newUrl = currentCategory === 'semua' ? '/' : '/?cat=' + currentCategory;
+        window.history.pushState({}, '', newUrl);
+        
+        filterPosts();
+      });
+    });
+  });
+</script>

@@ -1,15 +1,360 @@
 ---
-# Add a comment to make this file sass-y.
-# Change this file for any custom CSS.
 ---
+/* ========================================================
+   PREMIUM DARK MODE - SOLID & CLEAN SYSTEM
+   ======================================================== */
 
-/* We need to add display:inline in order to align the '>>' of the 'read more' link */
-.post-excerpt p {
-	display:inline;
+$bg-main: #0a0a0c;        
+$bg-surface: #121215;     
+$bg-input: #1a1a22;       
+$border-color: #22222a;   
+$text-primary: #f3f4f6;   
+$text-secondary: #9ca3af; 
+$accent-brand: #38bdf8;   
+
+* {
+  box-sizing: border-box !important;
 }
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-	"syntax",
-    "starsnonscss"
-;
+body {
+  background-color: $bg-main;
+  color: $text-primary;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* Navigasi Header Atas */
+.main-navigation {
+  background-color: $bg-surface;
+  border-bottom: 1px solid $border-color;
+  width: 100%;
+  
+  .nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 10px;
+  }
+  
+  .brand-logo {
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-decoration: none;
+    span { color: $accent-brand; }
+  }
+  
+  .nav-categories {
+    display: flex;
+    gap: 14px;
+    overflow-x: auto;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 4px;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    
+    a {
+      color: $text-secondary;
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 500;
+      cursor: pointer;
+      padding: 4px 8px;
+      border-radius: 4px;
+      
+      &.active, &:hover {
+        color: #ffffff;
+        background-color: $bg-input;
+      }
+    }
+  }
+}
+
+/* Kolom Pencarian */
+.search-wrapper {
+  margin: 20px 0;
+  width: 100%;
+  
+  input {
+    width: 100%;
+    padding: 12px 16px;
+    background-color: $bg-input;
+    border: 1px solid $border-color;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 0.95rem;
+    display: block;
+    
+    &:focus {
+      outline: none;
+      border-color: $accent-brand;
+    }
+  }
+}
+
+/* Grid Kartu Utama */
+.homepage-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  width: 100%;
+}
+
+.post-card {
+  background-color: $bg-surface;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid $border-color;
+  
+  a { text-decoration: none; color: inherit; display: block; }
+  
+  .card-thumb {
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .card-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(10, 10, 12, 0.75);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    color: $accent-brand;
+    padding: 4px 10px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: 4px;
+    border: 1px solid rgba(56, 189, 248, 0.2);
+  }
+  
+  .card-details {
+    padding: 16px;
+    h2 { font-size: 1.1rem; margin: 0 0 8px 0; color: #ffffff; line-height: 1.4; }
+    .card-date { font-size: 0.8rem; color: $text-secondary; }
+  }
+}
+
+/* Header Detail Post */
+.post-header {
+  text-align: center;
+  margin: 35px 0 25px 0;
+  
+  .category-badge { color: $accent-brand; font-weight: 600; font-size: 0.8rem; letter-spacing: 1px; }
+  h1 { font-size: 1.75rem; color: #ffffff; margin: 10px 0; line-height: 1.3; }
+  .post-tags { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin-top: 5px; }
+  .tag-item { color: $text-secondary; font-size: 0.8rem; }
+}
+
+.post-content {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 25px 0;
+  color: #d1d5db;
+}
+
+/* Grid Galeri Masonry Responsif */
+.masonry-gallery {
+  column-count: 2;
+  column-gap: 12px;
+  width: 100%;
+  margin-top: 15px;
+  
+  .masonry-item {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid $border-color;
+    
+    img { width: 100%; height: auto; display: block; }
+  }
+}
+
+/* Tombol Download */
+.download-section {
+  margin: 30px 0;
+  width: 100%;
+  
+  .btn-download {
+    display: block; 
+    width: 100%; 
+    background-color: #ffffff; 
+    color: #000000;
+    text-align: center; 
+    padding: 14px; 
+    border-radius: 6px; 
+    text-decoration: none; 
+    font-weight: 600;
+    transition: background-color 0.2s;
+    
+    &:hover {
+      background-color: #e5e7eb;
+    }
+  }
+}
+
+/* Layout Multi-Video (Sistem Flex & Grid Baku) */
+.video-gallery-container { 
+  width: 100%; 
+  margin: 20px 0; 
+}
+.video-grid-flex { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 16px; 
+  padding: 0; 
+  margin: 0; 
+}
+.video-item-card {
+  width: 100%; 
+  background: $bg-surface; 
+  padding: 12px; 
+  border-radius: 8px; 
+  border: 1px solid $border-color;
+  
+  h4 { margin: 0 0 12px 0; color: #ffffff; font-size: 0.95rem; }
+}
+.video-wrapper-16-9 { position: relative; width: 100%; padding-bottom: 56.25%; height: 0; }
+.video-wrapper-9-16 { position: relative; width: 100%; max-width: 320px; padding-bottom: 177.78%; height: 0; margin: 0 auto; }
+.video-wrapper-16-9 iframe, .video-wrapper-9-16 iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; border-radius: 6px; }
+
+/* ========================================================
+   MEDIA BREAKPOINTS (OPTIMISASI MONITOR KOMPUTER / TABLET)
+   ======================================================== */
+@media (min-width: 768px) {
+  .main-navigation .nav-container { flex-direction: row; justify-content: space-between; height: 65px; padding: 0 24px; }
+  .main-navigation .nav-categories { width: auto; }
+  .homepage-grid { grid-template-columns: repeat(3, 1fr); }
+  .post-header h1 { font-size: 2.25rem; }
+  .masonry-gallery { column-count: 3; column-gap: 16px; }
+  
+  /* Perbaikan susunan Video Grid Desktop */
+  .video-grid-flex { 
+    flex-direction: row !important; 
+    flex-wrap: wrap !important; 
+    justify-content: center !important;
+  }
+  .video-item-card { 
+    width: calc(50% - 12px) !important; 
+  }
+}
+
+/* ========================================================
+   FIX LIGHTBOX (LATAR GELAP GELITA & KONTROL DI TENGAH LAYAR)
+   ======================================================== */
+
+.sl-overlay {
+  background: #08080a !important;
+  opacity: 0.98 !important;
+}
+
+.sl-wrapper .sl-image img {
+  border: none !important;
+  padding: 0 !important;
+  background: transparent !important;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+}
+
+/* Navigasi Panah Kiri & Kanan (Next / Prev) */
+.sl-wrapper .sl-navigation button {
+  width: 50px !important;  
+  height: 70px !important;
+  font-size: 2.5rem !important; 
+  color: #ffffff !important;
+  opacity: 0.7;
+  transition: all 0.2s ease;
+  background: rgba(0, 0, 0, 0.3) !important; 
+  border-radius: 6px;
+}
+.sl-wrapper .sl-navigation button:hover {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.6) !important;
+}
+.sl-wrapper .sl-navigation .sl-prev { left: 20px !important; }
+.sl-wrapper .sl-navigation .sl-next { right: 20px !important; }
+
+/* Tombol Kapsul On/Off Gulir Otomatis */
+#sl-play-btn {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10070; 
+  background-color: rgba(26, 26, 34, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #ffffff;
+  border: 1px solid #2a2a35;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+#sl-play-btn:hover { background-color: #ffffff; color: #0a0a0c; }
+#sl-play-btn.playing {
+  border-color: #38bdf8; 
+  box-shadow: 0 4px 15px rgba(56, 189, 248, 0.3);
+}
+
+/* Optimasi Lightbox Sempurna Khusus HP */
+@media (max-width: 767px) {
+  .sl-wrapper .sl-image {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    transform: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  .sl-wrapper .sl-image img {
+    width: 100% !important;
+    height: auto !important;
+    max-height: 100vh !important;
+    object-fit: contain !important;
+    margin: 0 auto !important;
+  }
+
+  .sl-wrapper .sl-navigation button {
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    height: 60px !important;
+    width: 40px !important;
+    font-size: 1.8rem !important;
+  }
+  .sl-wrapper .sl-navigation .sl-prev { left: 10px !important; }
+  .sl-wrapper .sl-navigation .sl-next { right: 10px !important; }
+
+  #sl-play-btn {
+    bottom: 40px; 
+    padding: 8px 16px;
+    font-size: 0.8rem;
+  }
+}

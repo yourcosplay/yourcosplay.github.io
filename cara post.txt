@@ -1,0 +1,36 @@
+---
+layout: gallery
+title: "Cosplay Raiden Shogun Exclusive Photopack Edition"
+category: gravure
+tags: [genshin-impact, raiden-shogun, inazuma]
+
+# 1. Gambar Sampul Depan di Halaman Utama (Wajib Link Eksternal / Direct URL)
+featured_image: "https://images2.imgbox.com/aa/bb/cover_raiden.jpg"
+
+# 2. Tautan Unduhan Album Utuh (Kosongkan "" jika tidak ingin menampilkan tombol download)
+download_link: "https://mega.nz/folder/exampleSecureLink123"
+
+# 3. Integrasi Multi-Video Eksternal (Otomatis Rata Tengah & Responsif)
+videos:
+  - url: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    ratio: "16-9"
+    title: "Cinematic Showcase (Landscape)"
+  - url: "https://www.tiktok.com/embed/v2/7123456789"
+    ratio: "9-16"
+    title: "Behind The Scene Dance (Portrait)"
+
+# 4. Daftar Gambar Galeri (Semua otomatis masuk ke sistem Lightbox & Masonry Grid)
+images:
+  - "https://images2.imgbox.com/aa/bb/raiden_01.jpg"
+  - "https://images2.imgbox.com/aa/bb/raiden_02.jpg"
+  - "https://images2.imgbox.com/aa/bb/raiden_03.jpg"
+  - "https://images2.imgbox.com/aa/bb/raiden_04.jpg"
+---
+
+Tulis deskripsi atau sinopsis singkat mengenai konsep kostum di sini. Bagian teks ini akan otomatis dirender di bawah blok video dan di atas tombol unduhan sesuai dengan urutan komponen linier profesional yang diatur oleh sistem tema.
+
+### Kredit Tim Kreatif & Media Sosial:
+* **Cosplayer:** [@NamaCosplayer](https://instagram.com)
+* **Fotografer:** [@NamaFotografer](https://instagram.com)
+* **Lokasi Studio:** Neon-Tokyo Studio, Jakarta
+* **Kostum Versi:** Raiden Shogun Boss Edition

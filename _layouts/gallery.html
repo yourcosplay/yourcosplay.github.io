@@ -1,0 +1,158 @@
+---
+layout: default
+---
+
+<main class="container">
+  <!-- 1. Judul Postingan & Metadata Kategori/Tag -->
+  <header class="post-header">
+    <span class="category-badge">// {% if page.category.first %}{{ page.category.first | upcase }}{% else %}{{ page.category | upcase }}{% endif %}</span>
+    <h1>{{ page.title }}</h1>
+    <div class="post-tags">
+      {% for tag in page.tags %}
+        <span class="tag-item">#{{ tag }}</span>
+      {% endfor %}
+    </div>
+  </header>
+
+  <!-- 2. Blok Multi-Video Player Universal (Optimal untuk Official Blogger Token Embed) -->
+  {% if page.videos and page.videos.size != 0 %}
+  <section class="video-gallery-container">
+    <div class="video-grid-flex">
+      {% for video in page.videos %}
+        <div class="video-item-card">
+          {% if video.title and video.title != "" %}
+            <h4>{{ video.title }}</h4>
+          {% endif %}
+          
+          <!-- Deteksi otomatis jenis link -->
+          {% if video.url contains 'blogger.com/video.g' or video.url contains 'blogspot.com' %}
+            
+            <!-- CONFIGURATION FOR OFFICIAL BLOGGER EMBED -->
+            {% if video.ratio == "9-16" %}
+              <div class="video-wrapper-9-16">
+                <iframe src="{{ video.url }}" allowfullscreen style="border:0; width:100%; height:100%;" loading="lazy"></iframe>
+              </div>
+            {% else %}
+              <div class="video-wrapper-16-9">
+                <iframe src="{{ video.url }}" allowfullscreen style="border:0; width:100%; height:100%;" loading="lazy"></iframe>
+              </div>
+            {% endif %}
+
+          {% else %}
+            
+            <!-- CONFIGURATION FOR YOUTUBE EMBED -->
+            {% assign final_url = video.url %}
+            {% if video.url contains 'watch?v=' %}
+              {% assign final_url = video.url | replace: 'watch?v=', 'embed/' %}
+            {% elsif video.url contains 'youtu.be/' %}
+              {% assign final_url = video.url | replace: 'youtu.be/', 'www.youtube.com/embed/' %}
+            {% endif %}
+            
+            <div class="video-wrapper-16-9">
+              <iframe src="{{ final_url }}" allowfullscreen style="border:0; width:100%; height:100%;" loading="lazy"></iframe>
+            </div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  <!-- 3. Blok Deskripsi Konten & Kredit Kreator -->
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+  <!-- 4. Tombol Download Pack -->
+  {% if page.download_link and page.download_link != "" %}
+  <div class="download-section">
+    <a href="{{ page.download_link }}" target="_blank" rel="noopener noreferrer" class="btn-download">
+      Download Asset Pack
+    </a>
+  </div>
+  {% endif %}
+
+  <!-- 5. Grid Galeri Foto Masonry (Terintegrasi Lightbox) -->
+  {% if page.images %}
+  <section class="gallery-section">
+    <h3>Portfolio Gallery</h3>
+    <div class="masonry-gallery">
+      {% for img_url in page.images %}
+        <div class="masonry-item">
+          <a href="{{ img_url }}">
+            <img src="{{ img_url }}" alt="Asset {{ forloop.index }}" loading="lazy">
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+</main>
+
+<!-- Sistem Kontrol Lightbox Murni -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    let lightboxInstance = null;
+    let slideshowInterval = null;
+    let isSlideshowActive = false;
+    const slideshowDuration = 3000;
+
+    function startSlideshow() {
+      isSlideshowActive = true;
+      const playBtn = document.getElementById('sl-play-btn');
+      if (playBtn) {
+        playBtn.classList.add('playing');
+        playBtn.innerHTML = '⏸ Stop Auto';
+      }
+      slideshowInterval = setInterval(() => {
+        if (lightboxInstance) lightboxInstance.next();
+      }, slideshowDuration);
+    }
+
+    function stopSlideshow() {
+      isSlideshowActive = false;
+      const playBtn = document.getElementById('sl-play-btn');
+      if (playBtn) {
+        playBtn.classList.remove('playing');
+        playBtn.innerHTML = '▶ Play Auto';
+      }
+      clearInterval(slideshowInterval);
+    }
+
+    if (document.querySelector('.masonry-gallery a')) {
+      lightboxInstance = new SimpleLightbox('.masonry-gallery a', { 
+        overlayOpacity: 0.95, 
+        fadeSpeed: 150,
+        loop: true
+      });
+
+      lightboxInstance.on('show.simplelightbox', function() {
+        const oldBtn = document.getElementById('sl-play-btn');
+        if (oldBtn) oldBtn.remove();
+
+        const playBtn = document.createElement('button');
+        playBtn.id = 'sl-play-btn';
+        playBtn.innerHTML = '▶ Play Auto';
+        document.body.appendChild(playBtn);
+
+        playBtn.addEventListener('click', function(e) {
+          e.stopPropagation();
+          if (!isSlideshowActive) { startSlideshow(); } else { stopSlideshow(); }
+        });
+      });
+
+      lightboxInstance.on('close.simplelightbox', function() {
+        stopSlideshow();
+        const playBtn = document.getElementById('sl-play-btn');
+        if (playBtn) playBtn.remove();
+      });
+
+      lightboxInstance.on('change.simplelightbox', function() {
+        if (isSlideshowActive) {
+          clearInterval(slideshowInterval);
+          startSlideshow();
+        }
+      });
+    }
+  });
+</script>
