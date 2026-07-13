@@ -12,7 +12,8 @@ title: "Home - CosShowcase Gallery"
   <!-- Grid Postingan Utama -->
   <section class="homepage-grid" id="mainPostGrid">
     {% for post in paginator.posts %}
-      <article class="post-card" data-category="{% if post.category %}{{ post.category | join: ' ' | slugify }}{% else %}unassigned{% endif %}">
+      <!-- DI PERBAIKI: Menggunakan perulangan Liquid murni untuk generate data-category agar tidak pecah/menyatu -->
+      <article class="post-card" data-category="{% if post.category %}{% for cat in post.category %}{{ cat | slugify }} {% endfor %}{% else %}unassigned{% endif %}">
         <a href="{{ post.url | relative_url }}">
           <div class="card-thumb" style="background-image: url('{{ post.featured_image }}');">
             <span class="card-badge">
@@ -35,7 +36,7 @@ title: "Home - CosShowcase Gallery"
   <!-- DATABASE CADANGAN (Tersembunyi, khusus agar fitur Cari & Kategori berfungsi 100% Global) -->
   <div id="globalPostData" style="display: none;">
     {% for post in site.posts %}
-      <article class="post-card" data-category="{% if post.category %}{{ post.category | join: ' ' | slugify }}{% else %}unassigned{% endif %}">
+      <article class="post-card" data-category="{% if post.category %}{% for cat in post.category %}{{ cat | slugify }} {% endfor %}{% else %}unassigned{% endif %}">
         <a href="{{ post.url | relative_url }}">
           <div class="card-thumb" style="background-image: url('{{ post.featured_image }}');">
             <span class="card-badge">
@@ -93,15 +94,13 @@ title: "Home - CosShowcase Gallery"
     
     const originalGridHTML = mainGrid.innerHTML;
 
-    // Fungsi pembantu untuk mengubah text menjadi slug (huruf kecil, spasi jadi strip)
     function slugify(text) {
       return text.toString().toLowerCase().trim()
-        .replace(/\s+/g, '-')           // Ganti spasi dengan -
-        .replace(/[^\w\-]+/g, '')       // Hapus semua karakter non-word
-        .replace(/\-\-+/g, '-');         // Ganti multi - dengan tunggal -
+        .replace(/\s+/g, '-')           
+        .replace(/[^\w\-]+/g, '')       
+        .replace(/\-\-+/g, '-');         
     }
 
-    // Ambil parameter kategori dari URL (?cat=...) dan langsung di-slugify
     const urlParams = new URLSearchParams(window.location.search);
     let currentCategory = urlParams.get('cat') ? slugify(urlParams.get('cat')) : 'semua';
     let searchQuery = '';
@@ -114,10 +113,12 @@ title: "Home - CosShowcase Gallery"
         const activePosts = mainGrid.querySelectorAll('.post-card');
         activePosts.forEach(function(post) {
           let postTitle = post.querySelector('h2').textContent.toLowerCase();
-          let postCategories = (post.getAttribute('data-category') || '').split(' ');
+          
+          // DI PERBAIKI: Mengambil kategori, memecah, dan membersihkan ruang kosong (trim)
+          let rawAttr = post.getAttribute('data-category') || '';
+          let postCategories = rawAttr.split(' ').map(c => c.trim()).filter(c => c !== '');
 
           let matchSearch = postTitle.includes(searchQuery);
-          // Menggunakan inklusi array berbasis slug
           let matchCategory = (currentCategory === 'semua') || (postCategories.includes(currentCategory));
 
           if (matchSearch && matchCategory) {
@@ -132,7 +133,6 @@ title: "Home - CosShowcase Gallery"
         if (paginationNav) paginationNav.style.display = 'flex';
       }
 
-      // Perbaikan sinkronisasi class 'active' pada tombol menu kategori
       categoryLinks.forEach(link => {
         let filterAttr = slugify(link.getAttribute('data-filter') || '');
         if (filterAttr === currentCategory || (link.getAttribute('data-filter') === 'semua' && currentCategory === 'semua')) {
