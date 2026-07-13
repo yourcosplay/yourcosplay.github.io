@@ -59,18 +59,14 @@ title: "Home - CosShowcase Gallery"
   {% if paginator.total_pages > 1 %}
   <nav class="pagination-wrapper" id="paginationNav" style="text-align: center; margin: 40px 0; display: flex; justify-content: center; gap: 8px; align-items: center; flex-wrap: wrap;">
     
-    <!-- Tombol Prev -->
     {% if paginator.previous_page %}
       <a href="{{ paginator.previous_page_path | relative_url }}" class="btn-page" style="padding: 8px 14px; background: #1e1e24; color: #fff; border-radius: 6px; text-decoration: none; border: 1px solid #333;">«</a>
     {% endif %}
 
-    <!-- LOOPING ANGKA HALAMAN -->
     {% for page in (1..paginator.total_pages) %}
       {% if page == paginator.page %}
-        <!-- Angka Halaman Aktif saat ini -->
         <span class="btn-page active" style="padding: 8px 14px; background: #38bdf8; color: #000; font-weight: bold; border-radius: 6px; border: 1px solid #38bdf8;">{{ page }}</span>
       {% else %}
-        <!-- Angka Halaman Lain -->
         {% if page == 1 %}
           <a href="{{ '/' | relative_url }}" class="btn-page" style="padding: 8px 14px; background: #1e1e24; color: #fff; border-radius: 6px; text-decoration: none; border: 1px solid #333;">1</a>
         {% else %}
@@ -79,7 +75,6 @@ title: "Home - CosShowcase Gallery"
       {% endif %}
     {% endfor %}
 
-    <!-- Tombol Next -->
     {% if paginator.next_page %}
       <a href="{{ paginator.next_page_path | relative_url }}" class="btn-page" style="padding: 8px 14px; background: #1e1e24; color: #fff; border-radius: 6px; text-decoration: none; border: 1px solid #333;">»</a>
     {% endif %}
@@ -96,31 +91,33 @@ title: "Home - CosShowcase Gallery"
     const globalData = document.getElementById('globalPostData');
     const paginationNav = document.getElementById('paginationNav');
     
-    // Backup isi grid asli (9 post bawaan halaman ini)
     const originalGridHTML = mainGrid.innerHTML;
 
-    // Ambil parameter kategori dari URL (?cat=...)
+    // Fungsi pembantu untuk mengubah text menjadi slug (huruf kecil, spasi jadi strip)
+    function slugify(text) {
+      return text.toString().toLowerCase().trim()
+        .replace(/\s+/g, '-')           // Ganti spasi dengan -
+        .replace(/[^\w\-]+/g, '')       // Hapus semua karakter non-word
+        .replace(/\-\-+/g, '-');         // Ganti multi - dengan tunggal -
+    }
+
+    // Ambil parameter kategori dari URL (?cat=...) dan langsung di-slugify
     const urlParams = new URLSearchParams(window.location.search);
-    let currentCategory = urlParams.get('cat') || 'semua';
+    let currentCategory = urlParams.get('cat') ? slugify(urlParams.get('cat')) : 'semua';
     let searchQuery = '';
 
     function filterPosts() {
-      // Jika pengguna melakukan pencarian atau memilih kategori tertentu
       if (searchQuery !== '' || currentCategory !== 'semua') {
-        
-        // 1. Sembunyikan navigasi angka halaman karena sedang mode pencarian global
         if (paginationNav) paginationNav.style.display = 'none';
-        
-        // 2. Ganti isi grid utama menggunakan database global (semua postingan)
         mainGrid.innerHTML = globalData.innerHTML;
         
-        // 3. Lakukan filter pencarian menyeluruh
         const activePosts = mainGrid.querySelectorAll('.post-card');
         activePosts.forEach(function(post) {
           let postTitle = post.querySelector('h2').textContent.toLowerCase();
           let postCategories = (post.getAttribute('data-category') || '').split(' ');
 
           let matchSearch = postTitle.includes(searchQuery);
+          // Menggunakan inklusi array berbasis slug
           let matchCategory = (currentCategory === 'semua') || (postCategories.includes(currentCategory));
 
           if (matchSearch && matchCategory) {
@@ -131,15 +128,14 @@ title: "Home - CosShowcase Gallery"
         });
 
       } else {
-        // Jika kolom pencarian kosong dan memilih kategori "Semua"
-        // Kembalikan ke mode pembagian halaman (pagination) normal bawaan Jekyll
         mainGrid.innerHTML = originalGridHTML;
         if (paginationNav) paginationNav.style.display = 'flex';
       }
 
-      // Update UI menu kategori aktif
+      // Perbaikan sinkronisasi class 'active' pada tombol menu kategori
       categoryLinks.forEach(link => {
-        if (link.getAttribute('data-filter') === currentCategory) {
+        let filterAttr = slugify(link.getAttribute('data-filter') || '');
+        if (filterAttr === currentCategory || (link.getAttribute('data-filter') === 'semua' && currentCategory === 'semua')) {
           link.classList.add('active');
         } else {
           link.classList.remove('active');
@@ -147,10 +143,8 @@ title: "Home - CosShowcase Gallery"
       });
     }
 
-    // Jalankan sistem filter di awal muat halaman
     filterPosts();
 
-    // Event input pencarian mengetik
     if (searchInput) {
       searchInput.addEventListener('input', function() {
         searchQuery = this.value.toLowerCase().trim();
@@ -158,11 +152,11 @@ title: "Home - CosShowcase Gallery"
       });
     }
 
-    // Event klik menu kategori
     categoryLinks.forEach(function(link) {
       link.addEventListener('click', function(e) {
         e.preventDefault();
-        currentCategory = this.getAttribute('data-filter');
+        let rawCategory = this.getAttribute('data-filter');
+        currentCategory = rawCategory === 'semua' ? 'semua' : slugify(rawCategory);
         
         const newUrl = currentCategory === 'semua' ? '/' : '/?cat=' + currentCategory;
         window.history.pushState({}, '', newUrl);
