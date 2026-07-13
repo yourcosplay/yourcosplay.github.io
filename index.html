@@ -12,7 +12,6 @@ title: "Home - CosShowcase Gallery"
   <!-- Grid Postingan Utama -->
   <section class="homepage-grid" id="mainPostGrid">
     {% for post in paginator.posts %}
-      <!-- DI PERBAIKI: Menggunakan perulangan Liquid murni untuk generate data-category agar tidak pecah/menyatu -->
       <article class="post-card" data-category="{% if post.category %}{% for cat in post.category %}{{ cat | slugify }} {% endfor %}{% else %}unassigned{% endif %}">
         <a href="{{ post.url | relative_url }}">
           <div class="card-thumb" style="background-image: url('{{ post.featured_image }}');">
@@ -101,6 +100,7 @@ title: "Home - CosShowcase Gallery"
         .replace(/\-\-+/g, '-');         
     }
 
+    // Membaca parameter URL (?cat=...) saat halaman di-load/di-refresh
     const urlParams = new URLSearchParams(window.location.search);
     let currentCategory = urlParams.get('cat') ? slugify(urlParams.get('cat')) : 'semua';
     let searchQuery = '';
@@ -113,8 +113,6 @@ title: "Home - CosShowcase Gallery"
         const activePosts = mainGrid.querySelectorAll('.post-card');
         activePosts.forEach(function(post) {
           let postTitle = post.querySelector('h2').textContent.toLowerCase();
-          
-          // DI PERBAIKI: Mengambil kategori, memecah, dan membersihkan ruang kosong (trim)
           let rawAttr = post.getAttribute('data-category') || '';
           let postCategories = rawAttr.split(' ').map(c => c.trim()).filter(c => c !== '');
 
@@ -133,6 +131,7 @@ title: "Home - CosShowcase Gallery"
         if (paginationNav) paginationNav.style.display = 'flex';
       }
 
+      // Update class active berdasarkan URL parameter yang aktif
       categoryLinks.forEach(link => {
         let filterAttr = slugify(link.getAttribute('data-filter') || '');
         if (filterAttr === currentCategory || (link.getAttribute('data-filter') === 'semua' && currentCategory === 'semua')) {
@@ -143,6 +142,7 @@ title: "Home - CosShowcase Gallery"
       });
     }
 
+    // Jalankan filter pertama kali saat halaman dimuat
     filterPosts();
 
     if (searchInput) {
@@ -152,16 +152,26 @@ title: "Home - CosShowcase Gallery"
       });
     }
 
+    // Logika Klik Cerdas (Aksesibilitas Tinggi & Responsif)
     categoryLinks.forEach(function(link) {
       link.addEventListener('click', function(e) {
-        e.preventDefault();
+        // Cek jika pengguna menekan tombol Ctrl / Cmd (ingin buka di tab baru), jangan interupsi JavaScript
+        if (e.metaKey || e.ctrlKey) return;
+
         let rawCategory = this.getAttribute('data-filter');
-        currentCategory = rawCategory === 'semua' ? 'semua' : slugify(rawCategory);
-        
-        const newUrl = currentCategory === 'semua' ? '/' : '/?cat=' + currentCategory;
-        window.history.pushState({}, '', newUrl);
-        
-        filterPosts();
+        let targetCategory = rawCategory === 'semua' ? 'semua' : slugify(rawCategory);
+
+        // LOGIKA AMAN: Jika user sedang berada di halaman utama (homepage)
+        if (window.location.pathname === '/' || window.location.pathname === '/index.html' || window.location.pathname.endsWith('/')) {
+          e.preventDefault(); // Cegah reload halaman biar instant & responsif
+          
+          currentCategory = targetCategory;
+          const newUrl = currentCategory === 'semua' ? '/' : '/?cat=' + currentCategory;
+          window.history.pushState({}, '', newUrl); // Ubah link URL atas tanpa refresh
+          
+          filterPosts();
+        } 
+        // Jika user berada di halaman lain (artikel), biarkan href bekerja normal untuk memindahkan halaman kembali ke home
       });
     });
   });

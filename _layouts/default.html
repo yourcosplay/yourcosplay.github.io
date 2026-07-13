@@ -20,13 +20,12 @@
     <div class="nav-container">
       <a href="{{ '/' | relative_url }}" class="brand-logo">Cos<span>Showcase</span></a>
       <nav class="nav-categories">
-        <!-- href diubah menjadi '#' agar JavaScript bekerja sempurna tanpa interupsi refresh halaman, 
-             namun data-filter tetap mengirimkan parameter yang tepat -->
-        <a href="https://yourcosplay.github.io/" data-filter="semua" class="active">Semua</a>
-        <a href="https://yourcosplay.github.io/?cat=indo" data-filter="indo">Indo</a>
-        <a href="https://yourcosplay.github.io/?cat=gravure" data-filter="gravure">Gravure</a>
-        <a href="#" data-filter="fans-premium">Fans Premium</a>
-        <a href="#" data-filter="aktris-profesional">Aktris</a>
+        <!-- Menggunakan URL Asli agar SEO Tinggi & Bisa Di-crawling Google Bot -->
+        <a href="{{ '/' | relative_url }}" data-filter="semua" class="active">Semua</a>
+        <a href="{{ '/?cat=indo' | relative_url }}" data-filter="indo">Indo</a>
+        <a href="{{ '/?cat=gravure' | relative_url }}" data-filter="gravure">Gravure</a>
+        <a href="{{ '/?cat=fans-premium' | relative_url }}" data-filter="fans-premium">Fans Premium</a>
+        <a href="{{ '/?cat=aktris-profesional' | relative_url }}" data-filter="aktris-profesional">Aktris</a>
       </nav>
     </div>
   </header>
