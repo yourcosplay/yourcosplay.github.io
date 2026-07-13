@@ -1,7 +1,8 @@
 ---
 layout: gallery
 title: "Aika Candice - Kebaya"
-category: [gravure, indo]
+category: -gravure
+		  -indo
 tags: [Aika-Candice, Kebaya]
 
 # 1. Gambar Sampul Depan di Halaman Utama (Wajib Link Eksternal / Direct URL)
